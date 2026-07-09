@@ -1,0 +1,4 @@
+method,setting,accuracy
+direct_answer,true_labels,0.57
+hidden_state_probe,true_labels,0.98
+hidden_state_probe,shuffled_labels_control,0.52
