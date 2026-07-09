@@ -94,3 +94,7 @@ To check whether the probe result is meaningful, I added a shuffled-label contro
 ## Limitations
 
 This is an early pilot result. The current experiment uses one model, one synthetic task type, one hidden layer, and a small train/test split. Future work should evaluate more task types, more models, multiple random seeds, layer-wise probes, and calibration metrics.
+
+## Shuffled-Label Control Result
+
+The hidden-state probe achieved 0.98 accuracy with true labels, while the shuffled-label control achieved 0.52 accuracy, close to chance. This suggests that the probe is recovering task-relevant numerical information from the model's hidden states rather than simply fitting random structure in the representations.
