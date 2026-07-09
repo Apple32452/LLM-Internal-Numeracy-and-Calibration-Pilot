@@ -117,3 +117,22 @@ Key result:
 | Shuffled-label control | about 0.50 |
 
 This is still an early pilot result. Future work should test more random seeds, larger datasets, harder numerical tasks, additional models, and stronger train/test generalization controls.
+
+## Multi-Seed Layer-Wise Robustness
+
+I also ran layer-wise probing across 5 random train/test splits.
+
+The result is stable across seeds. Early layers are near chance, while later layers achieve very high probe accuracy. The strongest layer reaches 1.00 mean test accuracy, and layers 16–24 remain around 0.98–0.996 mean accuracy. In contrast, shuffled-label controls remain near chance across layers.
+
+This suggests that the high probe accuracy is not only due to one lucky train/test split. Instead, numerical comparison information appears to become increasingly linearly recoverable across model depth.
+
+Key multi-seed pattern:
+
+| Layer Range | True-Label Probe Accuracy | Shuffled-Label Control |
+|---|---:|---:|
+| Layer 0 | about 0.52 | about 0.52 |
+| Layers 1–12 | about 0.67–0.85 | about 0.44–0.54 |
+| Layers 13–14 | about 0.95–0.98 | about 0.50 |
+| Layers 15–24 | about 0.98–1.00 | about 0.49–0.53 |
+
+This remains an early pilot. Future work should test harder numerical tasks, additional models, larger datasets, out-of-distribution splits, and calibration metrics.
