@@ -1,0 +1,3 @@
+method,task_type,accuracy
+direct_answer,number_comparison,0.57
+hidden_state_probe,number_comparison,0.98

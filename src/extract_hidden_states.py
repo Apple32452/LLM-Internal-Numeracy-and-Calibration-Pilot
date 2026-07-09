@@ -1,4 +1,5 @@
 import argparse
+import os
 import pandas as pd
 import numpy as np
 from pathlib import Path
@@ -8,35 +9,42 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+torch.set_num_threads(1)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", default="Qwen/Qwen2.5-0.5B-Instruct")
     parser.add_argument("--data", default="data/number_comparison_tasks.csv")
     parser.add_argument("--output", default="results/hidden_states_number_comparison.npz")
-    parser.add_argument("--max_examples", type=int, default=500)
+    parser.add_argument("--max_examples", type=int, default=200)
+    parser.add_argument("--device", default="cpu")
     args = parser.parse_args()
+
+    device = torch.device(args.device)
 
     df = pd.read_csv(args.data).head(args.max_examples)
 
-    tokenizer = AutoTokenizer.from_pretrained(args.model)
+    tokenizer = AutoTokenizer.from_pretrained(args.model, trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(
         args.model,
         torch_dtype=torch.float32,
-        device_map="auto",
-        output_hidden_states=True
-    )
+        trust_remote_code=True
+    ).to(device)
+
     model.eval()
 
     features = []
     labels = []
 
     for _, row in tqdm(df.iterrows(), total=len(df)):
-        inputs = tokenizer(row["prompt"], return_tensors="pt").to(model.device)
+        prompt = row["prompt"] + "\nAnswer:"
+        inputs = tokenizer(prompt, return_tensors="pt", truncation=True).to(device)
 
         with torch.no_grad():
             outputs = model(**inputs, output_hidden_states=True)
 
-        # Last layer, final token representation
         h = outputs.hidden_states[-1][0, -1, :].detach().cpu().numpy()
 
         features.append(h)

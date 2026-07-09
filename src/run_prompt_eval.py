@@ -7,13 +7,26 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 
-def parse_answer(text):
-    text = text.strip().upper()
-    if "A" in text[:5]:
-        return "A"
-    if "B" in text[:5]:
-        return "B"
-    return "OTHER"
+def sequence_logprob(model, tokenizer, prefix, candidate, device):
+    full_text = prefix + candidate
+
+    prefix_ids = tokenizer(prefix, return_tensors="pt", add_special_tokens=False).input_ids.to(device)
+    full_ids = tokenizer(full_text, return_tensors="pt", add_special_tokens=False).input_ids.to(device)
+
+    prefix_len = prefix_ids.shape[1]
+    candidate_ids = full_ids[0, prefix_len:]
+
+    with torch.no_grad():
+        logits = model(full_ids).logits
+
+    logprobs = torch.log_softmax(logits, dim=-1)
+
+    total = 0.0
+    for i, token_id in enumerate(candidate_ids):
+        pos = prefix_len - 1 + i
+        total += logprobs[0, pos, token_id].item()
+
+    return total
 
 
 def main():
@@ -22,46 +35,39 @@ def main():
     parser.add_argument("--data", default="data/number_comparison_tasks.csv")
     parser.add_argument("--output", default="results/prompt_eval_results.csv")
     parser.add_argument("--max_examples", type=int, default=100)
+    parser.add_argument("--device", default="cpu")
     args = parser.parse_args()
+
+    device = torch.device(args.device)
 
     df = pd.read_csv(args.data).head(args.max_examples)
 
-    tokenizer = AutoTokenizer.from_pretrained(args.model)
+    tokenizer = AutoTokenizer.from_pretrained(args.model, trust_remote_code=True)
     model = AutoModelForCausalLM.from_pretrained(
         args.model,
         torch_dtype=torch.float32,
-        device_map="auto"
-    )
+        trust_remote_code=True
+    ).to(device)
+
     model.eval()
 
     rows = []
 
     for _, row in tqdm(df.iterrows(), total=len(df)):
-        prompt = row["prompt"]
+        prefix = row["prompt"] + "\nAnswer:"
 
-        inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+        score_a = sequence_logprob(model, tokenizer, prefix, " A", device)
+        score_b = sequence_logprob(model, tokenizer, prefix, " B", device)
 
-        with torch.no_grad():
-            output_ids = model.generate(
-                **inputs,
-                max_new_tokens=5,
-                do_sample=False,
-                pad_token_id=tokenizer.eos_token_id
-            )
-
-        generated = tokenizer.decode(
-            output_ids[0][inputs["input_ids"].shape[1]:],
-            skip_special_tokens=True
-        )
-
-        pred = parse_answer(generated)
+        pred = "A" if score_a > score_b else "B"
         correct = int(pred == row["label"])
 
         rows.append({
             "task_id": row["task_id"],
             "task_type": row["task_type"],
             "label": row["label"],
-            "generated": generated,
+            "score_A": score_a,
+            "score_B": score_b,
             "pred": pred,
             "correct": correct
         })

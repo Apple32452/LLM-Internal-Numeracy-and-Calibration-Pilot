@@ -1,0 +1,2 @@
+task_type,probe_model,test_accuracy,n_train,n_test
+number_comparison,standardized_logistic_regression,0.98,150,50

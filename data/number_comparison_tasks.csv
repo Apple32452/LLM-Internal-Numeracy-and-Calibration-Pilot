@@ -1,0 +1,2001 @@
+task_id,task_type,prompt,a,b,label
+number_comparison_0,number_comparison,"Which number is larger?
+A: 0.639
+B: 0.025
+Answer with only A or B.",0.639,0.025,A
+number_comparison_1,number_comparison,"Which number is larger?
+A: 0.275
+B: 0.223
+Answer with only A or B.",0.275,0.223,A
+number_comparison_2,number_comparison,"Which number is larger?
+A: 0.736
+B: 0.677
+Answer with only A or B.",0.736,0.677,A
+number_comparison_3,number_comparison,"Which number is larger?
+A: 0.892
+B: 0.087
+Answer with only A or B.",0.892,0.087,A
+number_comparison_4,number_comparison,"Which number is larger?
+A: 0.422
+B: 0.03
+Answer with only A or B.",0.422,0.03,A
+number_comparison_5,number_comparison,"Which number is larger?
+A: 0.219
+B: 0.505
+Answer with only A or B.",0.219,0.505,B
+number_comparison_6,number_comparison,"Which number is larger?
+A: 0.027
+B: 0.199
+Answer with only A or B.",0.027,0.199,B
+number_comparison_7,number_comparison,"Which number is larger?
+A: 0.65
+B: 0.545
+Answer with only A or B.",0.65,0.545,A
+number_comparison_8,number_comparison,"Which number is larger?
+A: 0.22
+B: 0.589
+Answer with only A or B.",0.22,0.589,B
+number_comparison_9,number_comparison,"Which number is larger?
+A: 0.809
+B: 0.006
+Answer with only A or B.",0.809,0.006,A
+number_comparison_10,number_comparison,"Which number is larger?
+A: 0.806
+B: 0.698
+Answer with only A or B.",0.806,0.698,A
+number_comparison_11,number_comparison,"Which number is larger?
+A: 0.34
+B: 0.155
+Answer with only A or B.",0.34,0.155,A
+number_comparison_12,number_comparison,"Which number is larger?
+A: 0.957
+B: 0.337
+Answer with only A or B.",0.957,0.337,A
+number_comparison_13,number_comparison,"Which number is larger?
+A: 0.093
+B: 0.097
+Answer with only A or B.",0.093,0.097,B
+number_comparison_14,number_comparison,"Which number is larger?
+A: 0.847
+B: 0.604
+Answer with only A or B.",0.847,0.604,A
+number_comparison_15,number_comparison,"Which number is larger?
+A: 0.807
+B: 0.73
+Answer with only A or B.",0.807,0.73,A
+number_comparison_16,number_comparison,"Which number is larger?
+A: 0.536
+B: 0.973
+Answer with only A or B.",0.536,0.973,B
+number_comparison_17,number_comparison,"Which number is larger?
+A: 0.379
+B: 0.552
+Answer with only A or B.",0.379,0.552,B
+number_comparison_18,number_comparison,"Which number is larger?
+A: 0.829
+B: 0.619
+Answer with only A or B.",0.829,0.619,A
+number_comparison_19,number_comparison,"Which number is larger?
+A: 0.862
+B: 0.577
+Answer with only A or B.",0.862,0.577,A
+number_comparison_20,number_comparison,"Which number is larger?
+A: 0.705
+B: 0.046
+Answer with only A or B.",0.705,0.046,A
+number_comparison_21,number_comparison,"Which number is larger?
+A: 0.228
+B: 0.289
+Answer with only A or B.",0.228,0.289,B
+number_comparison_22,number_comparison,"Which number is larger?
+A: 0.08
+B: 0.233
+Answer with only A or B.",0.08,0.233,B
+number_comparison_23,number_comparison,"Which number is larger?
+A: 0.101
+B: 0.278
+Answer with only A or B.",0.101,0.278,B
+number_comparison_24,number_comparison,"Which number is larger?
+A: 0.636
+B: 0.365
+Answer with only A or B.",0.636,0.365,A
+number_comparison_25,number_comparison,"Which number is larger?
+A: 0.37
+B: 0.21
+Answer with only A or B.",0.37,0.21,A
+number_comparison_26,number_comparison,"Which number is larger?
+A: 0.267
+B: 0.937
+Answer with only A or B.",0.267,0.937,B
+number_comparison_27,number_comparison,"Which number is larger?
+A: 0.648
+B: 0.609
+Answer with only A or B.",0.648,0.609,A
+number_comparison_28,number_comparison,"Which number is larger?
+A: 0.171
+B: 0.729
+Answer with only A or B.",0.171,0.729,B
+number_comparison_29,number_comparison,"Which number is larger?
+A: 0.163
+B: 0.379
+Answer with only A or B.",0.163,0.379,B
+number_comparison_30,number_comparison,"Which number is larger?
+A: 0.99
+B: 0.64
+Answer with only A or B.",0.99,0.64,A
+number_comparison_31,number_comparison,"Which number is larger?
+A: 0.557
+B: 0.685
+Answer with only A or B.",0.557,0.685,B
+number_comparison_32,number_comparison,"Which number is larger?
+A: 0.843
+B: 0.776
+Answer with only A or B.",0.843,0.776,A
+number_comparison_33,number_comparison,"Which number is larger?
+A: 0.229
+B: 0.032
+Answer with only A or B.",0.229,0.032,A
+number_comparison_34,number_comparison,"Which number is larger?
+A: 0.315
+B: 0.268
+Answer with only A or B.",0.315,0.268,A
+number_comparison_35,number_comparison,"Which number is larger?
+A: 0.211
+B: 0.943
+Answer with only A or B.",0.211,0.943,B
+number_comparison_36,number_comparison,"Which number is larger?
+A: 0.876
+B: 0.315
+Answer with only A or B.",0.876,0.315,A
+number_comparison_37,number_comparison,"Which number is larger?
+A: 0.655
+B: 0.396
+Answer with only A or B.",0.655,0.396,A
+number_comparison_38,number_comparison,"Which number is larger?
+A: 0.915
+B: 0.459
+Answer with only A or B.",0.915,0.459,A
+number_comparison_39,number_comparison,"Which number is larger?
+A: 0.265
+B: 0.247
+Answer with only A or B.",0.265,0.247,A
+number_comparison_40,number_comparison,"Which number is larger?
+A: 0.561
+B: 0.263
+Answer with only A or B.",0.561,0.263,A
+number_comparison_41,number_comparison,"Which number is larger?
+A: 0.585
+B: 0.898
+Answer with only A or B.",0.585,0.898,B
+number_comparison_42,number_comparison,"Which number is larger?
+A: 0.399
+B: 0.219
+Answer with only A or B.",0.399,0.219,A
+number_comparison_43,number_comparison,"Which number is larger?
+A: 0.998
+B: 0.51
+Answer with only A or B.",0.998,0.51,A
+number_comparison_44,number_comparison,"Which number is larger?
+A: 0.091
+B: 0.047
+Answer with only A or B.",0.091,0.047,A
+number_comparison_45,number_comparison,"Which number is larger?
+A: 0.11
+B: 0.627
+Answer with only A or B.",0.11,0.627,B
+number_comparison_46,number_comparison,"Which number is larger?
+A: 0.792
+B: 0.422
+Answer with only A or B.",0.792,0.422,A
+number_comparison_47,number_comparison,"Which number is larger?
+A: 0.064
+B: 0.382
+Answer with only A or B.",0.064,0.382,B
+number_comparison_48,number_comparison,"Which number is larger?
+A: 0.996
+B: 0.529
+Answer with only A or B.",0.996,0.529,A
+number_comparison_49,number_comparison,"Which number is larger?
+A: 0.971
+B: 0.861
+Answer with only A or B.",0.971,0.861,A
+number_comparison_50,number_comparison,"Which number is larger?
+A: 0.011
+B: 0.721
+Answer with only A or B.",0.011,0.721,B
+number_comparison_51,number_comparison,"Which number is larger?
+A: 0.682
+B: 0.537
+Answer with only A or B.",0.682,0.537,A
+number_comparison_52,number_comparison,"Which number is larger?
+A: 0.267
+B: 0.641
+Answer with only A or B.",0.267,0.641,B
+number_comparison_53,number_comparison,"Which number is larger?
+A: 0.112
+B: 0.435
+Answer with only A or B.",0.112,0.435,B
+number_comparison_54,number_comparison,"Which number is larger?
+A: 0.454
+B: 0.954
+Answer with only A or B.",0.454,0.954,B
+number_comparison_55,number_comparison,"Which number is larger?
+A: 0.876
+B: 0.263
+Answer with only A or B.",0.876,0.263,A
+number_comparison_56,number_comparison,"Which number is larger?
+A: 0.501
+B: 0.179
+Answer with only A or B.",0.501,0.179,A
+number_comparison_57,number_comparison,"Which number is larger?
+A: 0.913
+B: 0.871
+Answer with only A or B.",0.913,0.871,A
+number_comparison_58,number_comparison,"Which number is larger?
+A: 0.298
+B: 0.639
+Answer with only A or B.",0.298,0.639,B
+number_comparison_59,number_comparison,"Which number is larger?
+A: 0.609
+B: 0.153
+Answer with only A or B.",0.609,0.153,A
+number_comparison_60,number_comparison,"Which number is larger?
+A: 0.763
+B: 0.539
+Answer with only A or B.",0.763,0.539,A
+number_comparison_61,number_comparison,"Which number is larger?
+A: 0.779
+B: 0.53
+Answer with only A or B.",0.779,0.53,A
+number_comparison_62,number_comparison,"Which number is larger?
+A: 0.001
+B: 0.324
+Answer with only A or B.",0.001,0.324,B
+number_comparison_63,number_comparison,"Which number is larger?
+A: 0.019
+B: 0.929
+Answer with only A or B.",0.019,0.929,B
+number_comparison_64,number_comparison,"Which number is larger?
+A: 0.879
+B: 0.832
+Answer with only A or B.",0.879,0.832,A
+number_comparison_65,number_comparison,"Which number is larger?
+A: 0.308
+B: 0.058
+Answer with only A or B.",0.308,0.058,A
+number_comparison_66,number_comparison,"Which number is larger?
+A: 0.878
+B: 0.947
+Answer with only A or B.",0.878,0.947,B
+number_comparison_67,number_comparison,"Which number is larger?
+A: 0.086
+B: 0.486
+Answer with only A or B.",0.086,0.486,B
+number_comparison_68,number_comparison,"Which number is larger?
+A: 0.069
+B: 0.761
+Answer with only A or B.",0.069,0.761,B
+number_comparison_69,number_comparison,"Which number is larger?
+A: 0.766
+B: 0.128
+Answer with only A or B.",0.766,0.128,A
+number_comparison_70,number_comparison,"Which number is larger?
+A: 0.475
+B: 0.55
+Answer with only A or B.",0.475,0.55,B
+number_comparison_71,number_comparison,"Which number is larger?
+A: 0.265
+B: 0.872
+Answer with only A or B.",0.265,0.872,B
+number_comparison_72,number_comparison,"Which number is larger?
+A: 0.423
+B: 0.212
+Answer with only A or B.",0.423,0.212,A
+number_comparison_73,number_comparison,"Which number is larger?
+A: 0.539
+B: 0.73
+Answer with only A or B.",0.539,0.73,B
+number_comparison_74,number_comparison,"Which number is larger?
+A: 0.201
+B: 0.312
+Answer with only A or B.",0.201,0.312,B
+number_comparison_75,number_comparison,"Which number is larger?
+A: 0.995
+B: 0.65
+Answer with only A or B.",0.995,0.65,A
+number_comparison_76,number_comparison,"Which number is larger?
+A: 0.438
+B: 0.518
+Answer with only A or B.",0.438,0.518,B
+number_comparison_77,number_comparison,"Which number is larger?
+A: 0.121
+B: 0.225
+Answer with only A or B.",0.121,0.225,B
+number_comparison_78,number_comparison,"Which number is larger?
+A: 0.338
+B: 0.588
+Answer with only A or B.",0.338,0.588,B
+number_comparison_79,number_comparison,"Which number is larger?
+A: 0.23
+B: 0.22
+Answer with only A or B.",0.23,0.22,A
+number_comparison_80,number_comparison,"Which number is larger?
+A: 0.071
+B: 0.631
+Answer with only A or B.",0.071,0.631,B
+number_comparison_81,number_comparison,"Which number is larger?
+A: 0.229
+B: 0.905
+Answer with only A or B.",0.229,0.905,B
+number_comparison_82,number_comparison,"Which number is larger?
+A: 0.86
+B: 0.071
+Answer with only A or B.",0.86,0.071,A
+number_comparison_83,number_comparison,"Which number is larger?
+A: 0.238
+B: 0.669
+Answer with only A or B.",0.238,0.669,B
+number_comparison_84,number_comparison,"Which number is larger?
+A: 0.214
+B: 0.132
+Answer with only A or B.",0.214,0.132,A
+number_comparison_85,number_comparison,"Which number is larger?
+A: 0.936
+B: 0.571
+Answer with only A or B.",0.936,0.571,A
+number_comparison_86,number_comparison,"Which number is larger?
+A: 0.473
+B: 0.785
+Answer with only A or B.",0.473,0.785,B
+number_comparison_87,number_comparison,"Which number is larger?
+A: 0.807
+B: 0.19
+Answer with only A or B.",0.807,0.19,A
+number_comparison_88,number_comparison,"Which number is larger?
+A: 0.097
+B: 0.431
+Answer with only A or B.",0.097,0.431,B
+number_comparison_89,number_comparison,"Which number is larger?
+A: 0.424
+B: 0.467
+Answer with only A or B.",0.424,0.467,B
+number_comparison_90,number_comparison,"Which number is larger?
+A: 0.729
+B: 0.673
+Answer with only A or B.",0.729,0.673,A
+number_comparison_91,number_comparison,"Which number is larger?
+A: 0.984
+B: 0.098
+Answer with only A or B.",0.984,0.098,A
+number_comparison_92,number_comparison,"Which number is larger?
+A: 0.403
+B: 0.339
+Answer with only A or B.",0.403,0.339,A
+number_comparison_93,number_comparison,"Which number is larger?
+A: 0.862
+B: 0.249
+Answer with only A or B.",0.862,0.249,A
+number_comparison_94,number_comparison,"Which number is larger?
+A: 0.19
+B: 0.449
+Answer with only A or B.",0.19,0.449,B
+number_comparison_95,number_comparison,"Which number is larger?
+A: 0.422
+B: 0.279
+Answer with only A or B.",0.422,0.279,A
+number_comparison_96,number_comparison,"Which number is larger?
+A: 0.25
+B: 0.923
+Answer with only A or B.",0.25,0.923,B
+number_comparison_97,number_comparison,"Which number is larger?
+A: 0.443
+B: 0.861
+Answer with only A or B.",0.443,0.861,B
+number_comparison_98,number_comparison,"Which number is larger?
+A: 0.55
+B: 0.051
+Answer with only A or B.",0.55,0.051,A
+number_comparison_99,number_comparison,"Which number is larger?
+A: 0.999
+B: 0.836
+Answer with only A or B.",0.999,0.836,A
+number_comparison_100,number_comparison,"Which number is larger?
+A: 0.969
+B: 0.926
+Answer with only A or B.",0.969,0.926,A
+number_comparison_101,number_comparison,"Which number is larger?
+A: 0.849
+B: 0.166
+Answer with only A or B.",0.849,0.166,A
+number_comparison_102,number_comparison,"Which number is larger?
+A: 0.486
+B: 0.214
+Answer with only A or B.",0.486,0.214,A
+number_comparison_103,number_comparison,"Which number is larger?
+A: 0.401
+B: 0.059
+Answer with only A or B.",0.401,0.059,A
+number_comparison_104,number_comparison,"Which number is larger?
+A: 0.379
+B: 0.985
+Answer with only A or B.",0.379,0.985,B
+number_comparison_105,number_comparison,"Which number is larger?
+A: 0.265
+B: 0.784
+Answer with only A or B.",0.265,0.784,B
+number_comparison_106,number_comparison,"Which number is larger?
+A: 0.455
+B: 0.423
+Answer with only A or B.",0.455,0.423,A
+number_comparison_107,number_comparison,"Which number is larger?
+A: 0.957
+B: 0.995
+Answer with only A or B.",0.957,0.995,B
+number_comparison_108,number_comparison,"Which number is larger?
+A: 0.556
+B: 0.718
+Answer with only A or B.",0.556,0.718,B
+number_comparison_109,number_comparison,"Which number is larger?
+A: 0.155
+B: 0.297
+Answer with only A or B.",0.155,0.297,B
+number_comparison_110,number_comparison,"Which number is larger?
+A: 0.969
+B: 0.579
+Answer with only A or B.",0.969,0.579,A
+number_comparison_111,number_comparison,"Which number is larger?
+A: 0.542
+B: 0.748
+Answer with only A or B.",0.542,0.748,B
+number_comparison_112,number_comparison,"Which number is larger?
+A: 0.057
+B: 0.584
+Answer with only A or B.",0.057,0.584,B
+number_comparison_113,number_comparison,"Which number is larger?
+A: 0.503
+B: 0.853
+Answer with only A or B.",0.503,0.853,B
+number_comparison_114,number_comparison,"Which number is larger?
+A: 0.157
+B: 0.961
+Answer with only A or B.",0.157,0.961,B
+number_comparison_115,number_comparison,"Which number is larger?
+A: 0.08
+B: 0.186
+Answer with only A or B.",0.08,0.186,B
+number_comparison_116,number_comparison,"Which number is larger?
+A: 0.595
+B: 0.675
+Answer with only A or B.",0.595,0.675,B
+number_comparison_117,number_comparison,"Which number is larger?
+A: 0.235
+B: 0.12
+Answer with only A or B.",0.235,0.12,A
+number_comparison_118,number_comparison,"Which number is larger?
+A: 0.89
+B: 0.246
+Answer with only A or B.",0.89,0.246,A
+number_comparison_119,number_comparison,"Which number is larger?
+A: 0.595
+B: 0.619
+Answer with only A or B.",0.595,0.619,B
+number_comparison_120,number_comparison,"Which number is larger?
+A: 0.419
+B: 0.584
+Answer with only A or B.",0.419,0.584,B
+number_comparison_121,number_comparison,"Which number is larger?
+A: 0.523
+B: 0.935
+Answer with only A or B.",0.523,0.935,B
+number_comparison_122,number_comparison,"Which number is larger?
+A: 0.204
+B: 0.716
+Answer with only A or B.",0.204,0.716,B
+number_comparison_123,number_comparison,"Which number is larger?
+A: 0.239
+B: 0.396
+Answer with only A or B.",0.239,0.396,B
+number_comparison_124,number_comparison,"Which number is larger?
+A: 0.672
+B: 0.3
+Answer with only A or B.",0.672,0.3,A
+number_comparison_125,number_comparison,"Which number is larger?
+A: 0.316
+B: 0.752
+Answer with only A or B.",0.316,0.752,B
+number_comparison_126,number_comparison,"Which number is larger?
+A: 0.073
+B: 0.458
+Answer with only A or B.",0.073,0.458,B
+number_comparison_127,number_comparison,"Which number is larger?
+A: 0.998
+B: 0.996
+Answer with only A or B.",0.998,0.996,A
+number_comparison_128,number_comparison,"Which number is larger?
+A: 0.073
+B: 0.213
+Answer with only A or B.",0.073,0.213,B
+number_comparison_129,number_comparison,"Which number is larger?
+A: 0.265
+B: 0.933
+Answer with only A or B.",0.265,0.933,B
+number_comparison_130,number_comparison,"Which number is larger?
+A: 0.881
+B: 0.879
+Answer with only A or B.",0.881,0.879,A
+number_comparison_131,number_comparison,"Which number is larger?
+A: 0.37
+B: 0.158
+Answer with only A or B.",0.37,0.158,A
+number_comparison_132,number_comparison,"Which number is larger?
+A: 0.834
+B: 0.704
+Answer with only A or B.",0.834,0.704,A
+number_comparison_133,number_comparison,"Which number is larger?
+A: 0.612
+B: 0.987
+Answer with only A or B.",0.612,0.987,B
+number_comparison_134,number_comparison,"Which number is larger?
+A: 0.654
+B: 0.008
+Answer with only A or B.",0.654,0.008,A
+number_comparison_135,number_comparison,"Which number is larger?
+A: 0.817
+B: 0.299
+Answer with only A or B.",0.817,0.299,A
+number_comparison_136,number_comparison,"Which number is larger?
+A: 0.663
+B: 0.939
+Answer with only A or B.",0.663,0.939,B
+number_comparison_137,number_comparison,"Which number is larger?
+A: 0.134
+B: 0.115
+Answer with only A or B.",0.134,0.115,A
+number_comparison_138,number_comparison,"Which number is larger?
+A: 0.107
+B: 0.553
+Answer with only A or B.",0.107,0.553,B
+number_comparison_139,number_comparison,"Which number is larger?
+A: 0.272
+B: 0.605
+Answer with only A or B.",0.272,0.605,B
+number_comparison_140,number_comparison,"Which number is larger?
+A: 0.718
+B: 0.204
+Answer with only A or B.",0.718,0.204,A
+number_comparison_141,number_comparison,"Which number is larger?
+A: 0.634
+B: 0.264
+Answer with only A or B.",0.634,0.264,A
+number_comparison_142,number_comparison,"Which number is larger?
+A: 0.489
+B: 0.905
+Answer with only A or B.",0.489,0.905,B
+number_comparison_143,number_comparison,"Which number is larger?
+A: 0.846
+B: 0.092
+Answer with only A or B.",0.846,0.092,A
+number_comparison_144,number_comparison,"Which number is larger?
+A: 0.424
+B: 0.277
+Answer with only A or B.",0.424,0.277,A
+number_comparison_145,number_comparison,"Which number is larger?
+A: 0.004
+B: 0.771
+Answer with only A or B.",0.004,0.771,B
+number_comparison_146,number_comparison,"Which number is larger?
+A: 0.637
+B: 0.262
+Answer with only A or B.",0.637,0.262,A
+number_comparison_147,number_comparison,"Which number is larger?
+A: 0.741
+B: 0.552
+Answer with only A or B.",0.741,0.552,A
+number_comparison_148,number_comparison,"Which number is larger?
+A: 0.428
+B: 0.01
+Answer with only A or B.",0.428,0.01,A
+number_comparison_149,number_comparison,"Which number is larger?
+A: 0.075
+B: 0.883
+Answer with only A or B.",0.075,0.883,B
+number_comparison_150,number_comparison,"Which number is larger?
+A: 0.904
+B: 0.546
+Answer with only A or B.",0.904,0.546,A
+number_comparison_151,number_comparison,"Which number is larger?
+A: 0.835
+B: 0.583
+Answer with only A or B.",0.835,0.583,A
+number_comparison_152,number_comparison,"Which number is larger?
+A: 0.148
+B: 0.127
+Answer with only A or B.",0.148,0.127,A
+number_comparison_153,number_comparison,"Which number is larger?
+A: 0.308
+B: 0.899
+Answer with only A or B.",0.308,0.899,B
+number_comparison_154,number_comparison,"Which number is larger?
+A: 0.796
+B: 0.861
+Answer with only A or B.",0.796,0.861,B
+number_comparison_155,number_comparison,"Which number is larger?
+A: 0.899
+B: 0.21
+Answer with only A or B.",0.899,0.21,A
+number_comparison_156,number_comparison,"Which number is larger?
+A: 0.25
+B: 0.103
+Answer with only A or B.",0.25,0.103,A
+number_comparison_157,number_comparison,"Which number is larger?
+A: 0.78
+B: 0.884
+Answer with only A or B.",0.78,0.884,B
+number_comparison_158,number_comparison,"Which number is larger?
+A: 0.406
+B: 0.621
+Answer with only A or B.",0.406,0.621,B
+number_comparison_159,number_comparison,"Which number is larger?
+A: 0.155
+B: 0.93
+Answer with only A or B.",0.155,0.93,B
+number_comparison_160,number_comparison,"Which number is larger?
+A: 0.865
+B: 0.976
+Answer with only A or B.",0.865,0.976,B
+number_comparison_161,number_comparison,"Which number is larger?
+A: 0.811
+B: 0.881
+Answer with only A or B.",0.811,0.881,B
+number_comparison_162,number_comparison,"Which number is larger?
+A: 0.025
+B: 0.737
+Answer with only A or B.",0.025,0.737,B
+number_comparison_163,number_comparison,"Which number is larger?
+A: 0.332
+B: 0.931
+Answer with only A or B.",0.332,0.931,B
+number_comparison_164,number_comparison,"Which number is larger?
+A: 0.802
+B: 0.864
+Answer with only A or B.",0.802,0.864,B
+number_comparison_165,number_comparison,"Which number is larger?
+A: 0.811
+B: 0.267
+Answer with only A or B.",0.811,0.267,A
+number_comparison_166,number_comparison,"Which number is larger?
+A: 0.787
+B: 0.108
+Answer with only A or B.",0.787,0.108,A
+number_comparison_167,number_comparison,"Which number is larger?
+A: 0.872
+B: 0.859
+Answer with only A or B.",0.872,0.859,A
+number_comparison_168,number_comparison,"Which number is larger?
+A: 0.222
+B: 0.817
+Answer with only A or B.",0.222,0.817,B
+number_comparison_169,number_comparison,"Which number is larger?
+A: 0.46
+B: 0.305
+Answer with only A or B.",0.46,0.305,A
+number_comparison_170,number_comparison,"Which number is larger?
+A: 0.795
+B: 0.228
+Answer with only A or B.",0.795,0.228,A
+number_comparison_171,number_comparison,"Which number is larger?
+A: 0.024
+B: 0.193
+Answer with only A or B.",0.024,0.193,B
+number_comparison_172,number_comparison,"Which number is larger?
+A: 0.328
+B: 0.864
+Answer with only A or B.",0.328,0.864,B
+number_comparison_173,number_comparison,"Which number is larger?
+A: 0.967
+B: 0.279
+Answer with only A or B.",0.967,0.279,A
+number_comparison_174,number_comparison,"Which number is larger?
+A: 0.641
+B: 0.4
+Answer with only A or B.",0.641,0.4,A
+number_comparison_175,number_comparison,"Which number is larger?
+A: 0.981
+B: 0.536
+Answer with only A or B.",0.981,0.536,A
+number_comparison_176,number_comparison,"Which number is larger?
+A: 0.939
+B: 0.115
+Answer with only A or B.",0.939,0.115,A
+number_comparison_177,number_comparison,"Which number is larger?
+A: 0.97
+B: 0.179
+Answer with only A or B.",0.97,0.179,A
+number_comparison_178,number_comparison,"Which number is larger?
+A: 0.963
+B: 0.265
+Answer with only A or B.",0.963,0.265,A
+number_comparison_179,number_comparison,"Which number is larger?
+A: 0.108
+B: 0.435
+Answer with only A or B.",0.108,0.435,B
+number_comparison_180,number_comparison,"Which number is larger?
+A: 0.729
+B: 0.314
+Answer with only A or B.",0.729,0.314,A
+number_comparison_181,number_comparison,"Which number is larger?
+A: 0.606
+B: 0.511
+Answer with only A or B.",0.606,0.511,A
+number_comparison_182,number_comparison,"Which number is larger?
+A: 0.385
+B: 0.577
+Answer with only A or B.",0.385,0.577,B
+number_comparison_183,number_comparison,"Which number is larger?
+A: 0.255
+B: 0.709
+Answer with only A or B.",0.255,0.709,B
+number_comparison_184,number_comparison,"Which number is larger?
+A: 0.002
+B: 0.926
+Answer with only A or B.",0.002,0.926,B
+number_comparison_185,number_comparison,"Which number is larger?
+A: 0.538
+B: 0.719
+Answer with only A or B.",0.538,0.719,B
+number_comparison_186,number_comparison,"Which number is larger?
+A: 0.742
+B: 0.671
+Answer with only A or B.",0.742,0.671,A
+number_comparison_187,number_comparison,"Which number is larger?
+A: 0.364
+B: 0.07
+Answer with only A or B.",0.364,0.07,A
+number_comparison_188,number_comparison,"Which number is larger?
+A: 0.664
+B: 0.33
+Answer with only A or B.",0.664,0.33,A
+number_comparison_189,number_comparison,"Which number is larger?
+A: 0.314
+B: 0.848
+Answer with only A or B.",0.314,0.848,B
+number_comparison_190,number_comparison,"Which number is larger?
+A: 0.72
+B: 0.3
+Answer with only A or B.",0.72,0.3,A
+number_comparison_191,number_comparison,"Which number is larger?
+A: 0.309
+B: 0.408
+Answer with only A or B.",0.309,0.408,B
+number_comparison_192,number_comparison,"Which number is larger?
+A: 0.402
+B: 0.296
+Answer with only A or B.",0.402,0.296,A
+number_comparison_193,number_comparison,"Which number is larger?
+A: 0.127
+B: 0.42
+Answer with only A or B.",0.127,0.42,B
+number_comparison_194,number_comparison,"Which number is larger?
+A: 0.94
+B: 0.677
+Answer with only A or B.",0.94,0.677,A
+number_comparison_195,number_comparison,"Which number is larger?
+A: 0.903
+B: 0.616
+Answer with only A or B.",0.903,0.616,A
+number_comparison_196,number_comparison,"Which number is larger?
+A: 0.301
+B: 0.548
+Answer with only A or B.",0.301,0.548,B
+number_comparison_197,number_comparison,"Which number is larger?
+A: 0.0
+B: 0.287
+Answer with only A or B.",0.0,0.287,B
+number_comparison_198,number_comparison,"Which number is larger?
+A: 0.43
+B: 0.58
+Answer with only A or B.",0.43,0.58,B
+number_comparison_199,number_comparison,"Which number is larger?
+A: 0.655
+B: 0.465
+Answer with only A or B.",0.655,0.465,A
+number_comparison_200,number_comparison,"Which number is larger?
+A: 0.442
+B: 0.214
+Answer with only A or B.",0.442,0.214,A
+number_comparison_201,number_comparison,"Which number is larger?
+A: 0.473
+B: 0.901
+Answer with only A or B.",0.473,0.901,B
+number_comparison_202,number_comparison,"Which number is larger?
+A: 0.796
+B: 0.17
+Answer with only A or B.",0.796,0.17,A
+number_comparison_203,number_comparison,"Which number is larger?
+A: 0.085
+B: 0.515
+Answer with only A or B.",0.085,0.515,B
+number_comparison_204,number_comparison,"Which number is larger?
+A: 0.633
+B: 0.335
+Answer with only A or B.",0.633,0.335,A
+number_comparison_205,number_comparison,"Which number is larger?
+A: 0.818
+B: 0.751
+Answer with only A or B.",0.818,0.751,A
+number_comparison_206,number_comparison,"Which number is larger?
+A: 0.673
+B: 0.225
+Answer with only A or B.",0.673,0.225,A
+number_comparison_207,number_comparison,"Which number is larger?
+A: 0.199
+B: 0.024
+Answer with only A or B.",0.199,0.024,A
+number_comparison_208,number_comparison,"Which number is larger?
+A: 0.245
+B: 0.475
+Answer with only A or B.",0.245,0.475,B
+number_comparison_209,number_comparison,"Which number is larger?
+A: 0.85
+B: 0.073
+Answer with only A or B.",0.85,0.073,A
+number_comparison_210,number_comparison,"Which number is larger?
+A: 0.414
+B: 0.63
+Answer with only A or B.",0.414,0.63,B
+number_comparison_211,number_comparison,"Which number is larger?
+A: 0.194
+B: 0.696
+Answer with only A or B.",0.194,0.696,B
+number_comparison_212,number_comparison,"Which number is larger?
+A: 0.494
+B: 0.244
+Answer with only A or B.",0.494,0.244,A
+number_comparison_213,number_comparison,"Which number is larger?
+A: 0.656
+B: 0.006
+Answer with only A or B.",0.656,0.006,A
+number_comparison_214,number_comparison,"Which number is larger?
+A: 0.751
+B: 0.77
+Answer with only A or B.",0.751,0.77,B
+number_comparison_215,number_comparison,"Which number is larger?
+A: 0.107
+B: 0.425
+Answer with only A or B.",0.107,0.425,B
+number_comparison_216,number_comparison,"Which number is larger?
+A: 0.176
+B: 0.958
+Answer with only A or B.",0.176,0.958,B
+number_comparison_217,number_comparison,"Which number is larger?
+A: 0.518
+B: 0.05
+Answer with only A or B.",0.518,0.05,A
+number_comparison_218,number_comparison,"Which number is larger?
+A: 0.249
+B: 0.848
+Answer with only A or B.",0.249,0.848,B
+number_comparison_219,number_comparison,"Which number is larger?
+A: 0.456
+B: 0.801
+Answer with only A or B.",0.456,0.801,B
+number_comparison_220,number_comparison,"Which number is larger?
+A: 0.668
+B: 0.988
+Answer with only A or B.",0.668,0.988,B
+number_comparison_221,number_comparison,"Which number is larger?
+A: 0.595
+B: 0.95
+Answer with only A or B.",0.595,0.95,B
+number_comparison_222,number_comparison,"Which number is larger?
+A: 0.891
+B: 0.613
+Answer with only A or B.",0.891,0.613,A
+number_comparison_223,number_comparison,"Which number is larger?
+A: 0.719
+B: 0.505
+Answer with only A or B.",0.719,0.505,A
+number_comparison_224,number_comparison,"Which number is larger?
+A: 0.831
+B: 0.548
+Answer with only A or B.",0.831,0.548,A
+number_comparison_225,number_comparison,"Which number is larger?
+A: 0.897
+B: 0.744
+Answer with only A or B.",0.897,0.744,A
+number_comparison_226,number_comparison,"Which number is larger?
+A: 0.475
+B: 0.259
+Answer with only A or B.",0.475,0.259,A
+number_comparison_227,number_comparison,"Which number is larger?
+A: 0.247
+B: 0.638
+Answer with only A or B.",0.247,0.638,B
+number_comparison_228,number_comparison,"Which number is larger?
+A: 0.766
+B: 0.521
+Answer with only A or B.",0.766,0.521,A
+number_comparison_229,number_comparison,"Which number is larger?
+A: 0.627
+B: 0.275
+Answer with only A or B.",0.627,0.275,A
+number_comparison_230,number_comparison,"Which number is larger?
+A: 0.077
+B: 0.286
+Answer with only A or B.",0.077,0.286,B
+number_comparison_231,number_comparison,"Which number is larger?
+A: 0.272
+B: 0.32
+Answer with only A or B.",0.272,0.32,B
+number_comparison_232,number_comparison,"Which number is larger?
+A: 0.54
+B: 0.138
+Answer with only A or B.",0.54,0.138,A
+number_comparison_233,number_comparison,"Which number is larger?
+A: 0.231
+B: 0.694
+Answer with only A or B.",0.231,0.694,B
+number_comparison_234,number_comparison,"Which number is larger?
+A: 0.706
+B: 0.064
+Answer with only A or B.",0.706,0.064,A
+number_comparison_235,number_comparison,"Which number is larger?
+A: 0.408
+B: 0.543
+Answer with only A or B.",0.408,0.543,B
+number_comparison_236,number_comparison,"Which number is larger?
+A: 0.416
+B: 0.207
+Answer with only A or B.",0.416,0.207,A
+number_comparison_237,number_comparison,"Which number is larger?
+A: 0.42
+B: 0.905
+Answer with only A or B.",0.42,0.905,B
+number_comparison_238,number_comparison,"Which number is larger?
+A: 0.584
+B: 0.696
+Answer with only A or B.",0.584,0.696,B
+number_comparison_239,number_comparison,"Which number is larger?
+A: 0.857
+B: 0.766
+Answer with only A or B.",0.857,0.766,A
+number_comparison_240,number_comparison,"Which number is larger?
+A: 0.38
+B: 0.006
+Answer with only A or B.",0.38,0.006,A
+number_comparison_241,number_comparison,"Which number is larger?
+A: 0.352
+B: 0.753
+Answer with only A or B.",0.352,0.753,B
+number_comparison_242,number_comparison,"Which number is larger?
+A: 0.853
+B: 0.953
+Answer with only A or B.",0.853,0.953,B
+number_comparison_243,number_comparison,"Which number is larger?
+A: 0.419
+B: 0.748
+Answer with only A or B.",0.419,0.748,B
+number_comparison_244,number_comparison,"Which number is larger?
+A: 0.546
+B: 0.603
+Answer with only A or B.",0.546,0.603,B
+number_comparison_245,number_comparison,"Which number is larger?
+A: 0.221
+B: 0.219
+Answer with only A or B.",0.221,0.219,A
+number_comparison_246,number_comparison,"Which number is larger?
+A: 0.436
+B: 0.029
+Answer with only A or B.",0.436,0.029,A
+number_comparison_247,number_comparison,"Which number is larger?
+A: 0.336
+B: 0.679
+Answer with only A or B.",0.336,0.679,B
+number_comparison_248,number_comparison,"Which number is larger?
+A: 0.404
+B: 0.165
+Answer with only A or B.",0.404,0.165,A
+number_comparison_249,number_comparison,"Which number is larger?
+A: 0.467
+B: 0.128
+Answer with only A or B.",0.467,0.128,A
+number_comparison_250,number_comparison,"Which number is larger?
+A: 0.622
+B: 0.027
+Answer with only A or B.",0.622,0.027,A
+number_comparison_251,number_comparison,"Which number is larger?
+A: 0.394
+B: 0.564
+Answer with only A or B.",0.394,0.564,B
+number_comparison_252,number_comparison,"Which number is larger?
+A: 0.027
+B: 0.643
+Answer with only A or B.",0.027,0.643,B
+number_comparison_253,number_comparison,"Which number is larger?
+A: 0.136
+B: 0.462
+Answer with only A or B.",0.136,0.462,B
+number_comparison_254,number_comparison,"Which number is larger?
+A: 0.05
+B: 0.379
+Answer with only A or B.",0.05,0.379,B
+number_comparison_255,number_comparison,"Which number is larger?
+A: 0.212
+B: 0.327
+Answer with only A or B.",0.212,0.327,B
+number_comparison_256,number_comparison,"Which number is larger?
+A: 0.761
+B: 0.379
+Answer with only A or B.",0.761,0.379,A
+number_comparison_257,number_comparison,"Which number is larger?
+A: 0.752
+B: 0.832
+Answer with only A or B.",0.752,0.832,B
+number_comparison_258,number_comparison,"Which number is larger?
+A: 0.252
+B: 0.082
+Answer with only A or B.",0.252,0.082,A
+number_comparison_259,number_comparison,"Which number is larger?
+A: 0.019
+B: 0.539
+Answer with only A or B.",0.019,0.539,B
+number_comparison_260,number_comparison,"Which number is larger?
+A: 1.0
+B: 0.35
+Answer with only A or B.",1.0,0.35,A
+number_comparison_261,number_comparison,"Which number is larger?
+A: 0.65
+B: 0.781
+Answer with only A or B.",0.65,0.781,B
+number_comparison_262,number_comparison,"Which number is larger?
+A: 0.652
+B: 0.754
+Answer with only A or B.",0.652,0.754,B
+number_comparison_263,number_comparison,"Which number is larger?
+A: 0.95
+B: 0.199
+Answer with only A or B.",0.95,0.199,A
+number_comparison_264,number_comparison,"Which number is larger?
+A: 0.02
+B: 0.152
+Answer with only A or B.",0.02,0.152,B
+number_comparison_265,number_comparison,"Which number is larger?
+A: 0.126
+B: 0.669
+Answer with only A or B.",0.126,0.669,B
+number_comparison_266,number_comparison,"Which number is larger?
+A: 0.564
+B: 0.218
+Answer with only A or B.",0.564,0.218,A
+number_comparison_267,number_comparison,"Which number is larger?
+A: 0.699
+B: 0.767
+Answer with only A or B.",0.699,0.767,B
+number_comparison_268,number_comparison,"Which number is larger?
+A: 0.168
+B: 0.607
+Answer with only A or B.",0.168,0.607,B
+number_comparison_269,number_comparison,"Which number is larger?
+A: 0.748
+B: 0.115
+Answer with only A or B.",0.748,0.115,A
+number_comparison_270,number_comparison,"Which number is larger?
+A: 0.819
+B: 0.965
+Answer with only A or B.",0.819,0.965,B
+number_comparison_271,number_comparison,"Which number is larger?
+A: 0.108
+B: 0.026
+Answer with only A or B.",0.108,0.026,A
+number_comparison_272,number_comparison,"Which number is larger?
+A: 0.312
+B: 0.677
+Answer with only A or B.",0.312,0.677,B
+number_comparison_273,number_comparison,"Which number is larger?
+A: 0.958
+B: 0.397
+Answer with only A or B.",0.958,0.397,A
+number_comparison_274,number_comparison,"Which number is larger?
+A: 0.715
+B: 0.076
+Answer with only A or B.",0.715,0.076,A
+number_comparison_275,number_comparison,"Which number is larger?
+A: 0.691
+B: 0.627
+Answer with only A or B.",0.691,0.627,A
+number_comparison_276,number_comparison,"Which number is larger?
+A: 0.102
+B: 0.772
+Answer with only A or B.",0.102,0.772,B
+number_comparison_277,number_comparison,"Which number is larger?
+A: 0.85
+B: 0.6
+Answer with only A or B.",0.85,0.6,A
+number_comparison_278,number_comparison,"Which number is larger?
+A: 0.121
+B: 0.984
+Answer with only A or B.",0.121,0.984,B
+number_comparison_279,number_comparison,"Which number is larger?
+A: 0.783
+B: 0.347
+Answer with only A or B.",0.783,0.347,A
+number_comparison_280,number_comparison,"Which number is larger?
+A: 0.428
+B: 0.371
+Answer with only A or B.",0.428,0.371,A
+number_comparison_281,number_comparison,"Which number is larger?
+A: 0.506
+B: 0.341
+Answer with only A or B.",0.506,0.341,A
+number_comparison_282,number_comparison,"Which number is larger?
+A: 0.85
+B: 0.822
+Answer with only A or B.",0.85,0.822,A
+number_comparison_283,number_comparison,"Which number is larger?
+A: 0.106
+B: 0.961
+Answer with only A or B.",0.106,0.961,B
+number_comparison_284,number_comparison,"Which number is larger?
+A: 0.636
+B: 0.829
+Answer with only A or B.",0.636,0.829,B
+number_comparison_285,number_comparison,"Which number is larger?
+A: 0.707
+B: 0.435
+Answer with only A or B.",0.707,0.435,A
+number_comparison_286,number_comparison,"Which number is larger?
+A: 0.734
+B: 0.965
+Answer with only A or B.",0.734,0.965,B
+number_comparison_287,number_comparison,"Which number is larger?
+A: 0.27
+B: 0.808
+Answer with only A or B.",0.27,0.808,B
+number_comparison_288,number_comparison,"Which number is larger?
+A: 0.538
+B: 0.483
+Answer with only A or B.",0.538,0.483,A
+number_comparison_289,number_comparison,"Which number is larger?
+A: 0.436
+B: 0.731
+Answer with only A or B.",0.436,0.731,B
+number_comparison_290,number_comparison,"Which number is larger?
+A: 0.268
+B: 0.852
+Answer with only A or B.",0.268,0.852,B
+number_comparison_291,number_comparison,"Which number is larger?
+A: 0.831
+B: 0.087
+Answer with only A or B.",0.831,0.087,A
+number_comparison_292,number_comparison,"Which number is larger?
+A: 0.882
+B: 0.244
+Answer with only A or B.",0.882,0.244,A
+number_comparison_293,number_comparison,"Which number is larger?
+A: 0.465
+B: 0.61
+Answer with only A or B.",0.465,0.61,B
+number_comparison_294,number_comparison,"Which number is larger?
+A: 0.379
+B: 0.029
+Answer with only A or B.",0.379,0.029,A
+number_comparison_295,number_comparison,"Which number is larger?
+A: 0.851
+B: 0.182
+Answer with only A or B.",0.851,0.182,A
+number_comparison_296,number_comparison,"Which number is larger?
+A: 0.212
+B: 0.798
+Answer with only A or B.",0.212,0.798,B
+number_comparison_297,number_comparison,"Which number is larger?
+A: 0.34
+B: 0.88
+Answer with only A or B.",0.34,0.88,B
+number_comparison_298,number_comparison,"Which number is larger?
+A: 0.701
+B: 0.276
+Answer with only A or B.",0.701,0.276,A
+number_comparison_299,number_comparison,"Which number is larger?
+A: 0.01
+B: 0.948
+Answer with only A or B.",0.01,0.948,B
+number_comparison_300,number_comparison,"Which number is larger?
+A: 0.086
+B: 0.72
+Answer with only A or B.",0.086,0.72,B
+number_comparison_301,number_comparison,"Which number is larger?
+A: 0.489
+B: 0.758
+Answer with only A or B.",0.489,0.758,B
+number_comparison_302,number_comparison,"Which number is larger?
+A: 0.691
+B: 0.646
+Answer with only A or B.",0.691,0.646,A
+number_comparison_303,number_comparison,"Which number is larger?
+A: 0.491
+B: 0.793
+Answer with only A or B.",0.491,0.793,B
+number_comparison_304,number_comparison,"Which number is larger?
+A: 0.093
+B: 0.222
+Answer with only A or B.",0.093,0.222,B
+number_comparison_305,number_comparison,"Which number is larger?
+A: 0.692
+B: 0.306
+Answer with only A or B.",0.692,0.306,A
+number_comparison_306,number_comparison,"Which number is larger?
+A: 0.582
+B: 0.473
+Answer with only A or B.",0.582,0.473,A
+number_comparison_307,number_comparison,"Which number is larger?
+A: 0.531
+B: 0.426
+Answer with only A or B.",0.531,0.426,A
+number_comparison_308,number_comparison,"Which number is larger?
+A: 0.746
+B: 0.331
+Answer with only A or B.",0.746,0.331,A
+number_comparison_309,number_comparison,"Which number is larger?
+A: 0.703
+B: 0.271
+Answer with only A or B.",0.703,0.271,A
+number_comparison_310,number_comparison,"Which number is larger?
+A: 0.251
+B: 0.121
+Answer with only A or B.",0.251,0.121,A
+number_comparison_311,number_comparison,"Which number is larger?
+A: 0.193
+B: 0.12
+Answer with only A or B.",0.193,0.12,A
+number_comparison_312,number_comparison,"Which number is larger?
+A: 0.536
+B: 0.762
+Answer with only A or B.",0.536,0.762,B
+number_comparison_313,number_comparison,"Which number is larger?
+A: 0.185
+B: 0.216
+Answer with only A or B.",0.185,0.216,B
+number_comparison_314,number_comparison,"Which number is larger?
+A: 0.484
+B: 0.725
+Answer with only A or B.",0.484,0.725,B
+number_comparison_315,number_comparison,"Which number is larger?
+A: 0.977
+B: 0.525
+Answer with only A or B.",0.977,0.525,A
+number_comparison_316,number_comparison,"Which number is larger?
+A: 0.283
+B: 0.101
+Answer with only A or B.",0.283,0.101,A
+number_comparison_317,number_comparison,"Which number is larger?
+A: 0.194
+B: 0.227
+Answer with only A or B.",0.194,0.227,B
+number_comparison_318,number_comparison,"Which number is larger?
+A: 0.179
+B: 0.014
+Answer with only A or B.",0.179,0.014,A
+number_comparison_319,number_comparison,"Which number is larger?
+A: 0.534
+B: 0.274
+Answer with only A or B.",0.534,0.274,A
+number_comparison_320,number_comparison,"Which number is larger?
+A: 0.974
+B: 0.553
+Answer with only A or B.",0.974,0.553,A
+number_comparison_321,number_comparison,"Which number is larger?
+A: 0.697
+B: 0.126
+Answer with only A or B.",0.697,0.126,A
+number_comparison_322,number_comparison,"Which number is larger?
+A: 0.868
+B: 0.491
+Answer with only A or B.",0.868,0.491,A
+number_comparison_323,number_comparison,"Which number is larger?
+A: 0.873
+B: 0.574
+Answer with only A or B.",0.873,0.574,A
+number_comparison_324,number_comparison,"Which number is larger?
+A: 0.469
+B: 0.44
+Answer with only A or B.",0.469,0.44,A
+number_comparison_325,number_comparison,"Which number is larger?
+A: 0.184
+B: 0.051
+Answer with only A or B.",0.184,0.051,A
+number_comparison_326,number_comparison,"Which number is larger?
+A: 0.941
+B: 0.478
+Answer with only A or B.",0.941,0.478,A
+number_comparison_327,number_comparison,"Which number is larger?
+A: 0.822
+B: 0.401
+Answer with only A or B.",0.822,0.401,A
+number_comparison_328,number_comparison,"Which number is larger?
+A: 0.074
+B: 0.629
+Answer with only A or B.",0.074,0.629,B
+number_comparison_329,number_comparison,"Which number is larger?
+A: 0.054
+B: 0.149
+Answer with only A or B.",0.054,0.149,B
+number_comparison_330,number_comparison,"Which number is larger?
+A: 0.563
+B: 0.304
+Answer with only A or B.",0.563,0.304,A
+number_comparison_331,number_comparison,"Which number is larger?
+A: 0.994
+B: 0.118
+Answer with only A or B.",0.994,0.118,A
+number_comparison_332,number_comparison,"Which number is larger?
+A: 0.764
+B: 0.606
+Answer with only A or B.",0.764,0.606,A
+number_comparison_333,number_comparison,"Which number is larger?
+A: 0.791
+B: 0.226
+Answer with only A or B.",0.791,0.226,A
+number_comparison_334,number_comparison,"Which number is larger?
+A: 0.523
+B: 0.451
+Answer with only A or B.",0.523,0.451,A
+number_comparison_335,number_comparison,"Which number is larger?
+A: 0.443
+B: 0.86
+Answer with only A or B.",0.443,0.86,B
+number_comparison_336,number_comparison,"Which number is larger?
+A: 0.99
+B: 0.305
+Answer with only A or B.",0.99,0.305,A
+number_comparison_337,number_comparison,"Which number is larger?
+A: 0.621
+B: 0.61
+Answer with only A or B.",0.621,0.61,A
+number_comparison_338,number_comparison,"Which number is larger?
+A: 0.74
+B: 0.948
+Answer with only A or B.",0.74,0.948,B
+number_comparison_339,number_comparison,"Which number is larger?
+A: 0.208
+B: 0.211
+Answer with only A or B.",0.208,0.211,B
+number_comparison_340,number_comparison,"Which number is larger?
+A: 0.66
+B: 0.157
+Answer with only A or B.",0.66,0.157,A
+number_comparison_341,number_comparison,"Which number is larger?
+A: 0.174
+B: 0.075
+Answer with only A or B.",0.174,0.075,A
+number_comparison_342,number_comparison,"Which number is larger?
+A: 0.003
+B: 0.451
+Answer with only A or B.",0.003,0.451,B
+number_comparison_343,number_comparison,"Which number is larger?
+A: 0.594
+B: 0.291
+Answer with only A or B.",0.594,0.291,A
+number_comparison_344,number_comparison,"Which number is larger?
+A: 0.231
+B: 0.707
+Answer with only A or B.",0.231,0.707,B
+number_comparison_345,number_comparison,"Which number is larger?
+A: 0.703
+B: 0.454
+Answer with only A or B.",0.703,0.454,A
+number_comparison_346,number_comparison,"Which number is larger?
+A: 0.687
+B: 0.924
+Answer with only A or B.",0.687,0.924,B
+number_comparison_347,number_comparison,"Which number is larger?
+A: 0.788
+B: 0.625
+Answer with only A or B.",0.788,0.625,A
+number_comparison_348,number_comparison,"Which number is larger?
+A: 0.661
+B: 0.934
+Answer with only A or B.",0.661,0.934,B
+number_comparison_349,number_comparison,"Which number is larger?
+A: 0.425
+B: 0.545
+Answer with only A or B.",0.425,0.545,B
+number_comparison_350,number_comparison,"Which number is larger?
+A: 0.648
+B: 0.908
+Answer with only A or B.",0.648,0.908,B
+number_comparison_351,number_comparison,"Which number is larger?
+A: 0.827
+B: 0.071
+Answer with only A or B.",0.827,0.071,A
+number_comparison_352,number_comparison,"Which number is larger?
+A: 0.166
+B: 0.308
+Answer with only A or B.",0.166,0.308,B
+number_comparison_353,number_comparison,"Which number is larger?
+A: 0.749
+B: 0.569
+Answer with only A or B.",0.749,0.569,A
+number_comparison_354,number_comparison,"Which number is larger?
+A: 0.289
+B: 0.124
+Answer with only A or B.",0.289,0.124,A
+number_comparison_355,number_comparison,"Which number is larger?
+A: 0.689
+B: 0.7
+Answer with only A or B.",0.689,0.7,B
+number_comparison_356,number_comparison,"Which number is larger?
+A: 0.943
+B: 0.5
+Answer with only A or B.",0.943,0.5,A
+number_comparison_357,number_comparison,"Which number is larger?
+A: 0.494
+B: 0.08
+Answer with only A or B.",0.494,0.08,A
+number_comparison_358,number_comparison,"Which number is larger?
+A: 0.04
+B: 0.432
+Answer with only A or B.",0.04,0.432,B
+number_comparison_359,number_comparison,"Which number is larger?
+A: 0.322
+B: 0.25
+Answer with only A or B.",0.322,0.25,A
+number_comparison_360,number_comparison,"Which number is larger?
+A: 0.091
+B: 0.962
+Answer with only A or B.",0.091,0.962,B
+number_comparison_361,number_comparison,"Which number is larger?
+A: 0.836
+B: 0.575
+Answer with only A or B.",0.836,0.575,A
+number_comparison_362,number_comparison,"Which number is larger?
+A: 0.951
+B: 1.0
+Answer with only A or B.",0.951,1.0,B
+number_comparison_363,number_comparison,"Which number is larger?
+A: 0.672
+B: 0.27
+Answer with only A or B.",0.672,0.27,A
+number_comparison_364,number_comparison,"Which number is larger?
+A: 0.04
+B: 0.756
+Answer with only A or B.",0.04,0.756,B
+number_comparison_365,number_comparison,"Which number is larger?
+A: 0.471
+B: 0.652
+Answer with only A or B.",0.471,0.652,B
+number_comparison_366,number_comparison,"Which number is larger?
+A: 0.916
+B: 0.181
+Answer with only A or B.",0.916,0.181,A
+number_comparison_367,number_comparison,"Which number is larger?
+A: 0.585
+B: 0.635
+Answer with only A or B.",0.585,0.635,B
+number_comparison_368,number_comparison,"Which number is larger?
+A: 0.492
+B: 0.091
+Answer with only A or B.",0.492,0.091,A
+number_comparison_369,number_comparison,"Which number is larger?
+A: 0.348
+B: 0.333
+Answer with only A or B.",0.348,0.333,A
+number_comparison_370,number_comparison,"Which number is larger?
+A: 0.67
+B: 0.858
+Answer with only A or B.",0.67,0.858,B
+number_comparison_371,number_comparison,"Which number is larger?
+A: 0.33
+B: 0.694
+Answer with only A or B.",0.33,0.694,B
+number_comparison_372,number_comparison,"Which number is larger?
+A: 0.288
+B: 0.945
+Answer with only A or B.",0.288,0.945,B
+number_comparison_373,number_comparison,"Which number is larger?
+A: 0.814
+B: 0.55
+Answer with only A or B.",0.814,0.55,A
+number_comparison_374,number_comparison,"Which number is larger?
+A: 0.455
+B: 0.315
+Answer with only A or B.",0.455,0.315,A
+number_comparison_375,number_comparison,"Which number is larger?
+A: 0.323
+B: 0.97
+Answer with only A or B.",0.323,0.97,B
+number_comparison_376,number_comparison,"Which number is larger?
+A: 0.404
+B: 0.515
+Answer with only A or B.",0.404,0.515,B
+number_comparison_377,number_comparison,"Which number is larger?
+A: 0.988
+B: 0.658
+Answer with only A or B.",0.988,0.658,A
+number_comparison_378,number_comparison,"Which number is larger?
+A: 0.543
+B: 0.413
+Answer with only A or B.",0.543,0.413,A
+number_comparison_379,number_comparison,"Which number is larger?
+A: 0.188
+B: 0.362
+Answer with only A or B.",0.188,0.362,B
+number_comparison_380,number_comparison,"Which number is larger?
+A: 0.756
+B: 0.625
+Answer with only A or B.",0.756,0.625,A
+number_comparison_381,number_comparison,"Which number is larger?
+A: 0.76
+B: 0.204
+Answer with only A or B.",0.76,0.204,A
+number_comparison_382,number_comparison,"Which number is larger?
+A: 0.549
+B: 0.928
+Answer with only A or B.",0.549,0.928,B
+number_comparison_383,number_comparison,"Which number is larger?
+A: 0.438
+B: 0.698
+Answer with only A or B.",0.438,0.698,B
+number_comparison_384,number_comparison,"Which number is larger?
+A: 0.121
+B: 0.973
+Answer with only A or B.",0.121,0.973,B
+number_comparison_385,number_comparison,"Which number is larger?
+A: 0.609
+B: 0.239
+Answer with only A or B.",0.609,0.239,A
+number_comparison_386,number_comparison,"Which number is larger?
+A: 0.158
+B: 0.551
+Answer with only A or B.",0.158,0.551,B
+number_comparison_387,number_comparison,"Which number is larger?
+A: 0.552
+B: 0.093
+Answer with only A or B.",0.552,0.093,A
+number_comparison_388,number_comparison,"Which number is larger?
+A: 0.992
+B: 0.913
+Answer with only A or B.",0.992,0.913,A
+number_comparison_389,number_comparison,"Which number is larger?
+A: 0.461
+B: 0.117
+Answer with only A or B.",0.461,0.117,A
+number_comparison_390,number_comparison,"Which number is larger?
+A: 0.832
+B: 0.498
+Answer with only A or B.",0.832,0.498,A
+number_comparison_391,number_comparison,"Which number is larger?
+A: 0.717
+B: 0.509
+Answer with only A or B.",0.717,0.509,A
+number_comparison_392,number_comparison,"Which number is larger?
+A: 0.273
+B: 0.835
+Answer with only A or B.",0.273,0.835,B
+number_comparison_393,number_comparison,"Which number is larger?
+A: 0.98
+B: 0.244
+Answer with only A or B.",0.98,0.244,A
+number_comparison_394,number_comparison,"Which number is larger?
+A: 0.551
+B: 0.384
+Answer with only A or B.",0.551,0.384,A
+number_comparison_395,number_comparison,"Which number is larger?
+A: 0.922
+B: 0.508
+Answer with only A or B.",0.922,0.508,A
+number_comparison_396,number_comparison,"Which number is larger?
+A: 0.879
+B: 0.864
+Answer with only A or B.",0.879,0.864,A
+number_comparison_397,number_comparison,"Which number is larger?
+A: 0.276
+B: 0.79
+Answer with only A or B.",0.276,0.79,B
+number_comparison_398,number_comparison,"Which number is larger?
+A: 0.415
+B: 0.934
+Answer with only A or B.",0.415,0.934,B
+number_comparison_399,number_comparison,"Which number is larger?
+A: 0.508
+B: 0.821
+Answer with only A or B.",0.508,0.821,B
+number_comparison_400,number_comparison,"Which number is larger?
+A: 0.283
+B: 0.299
+Answer with only A or B.",0.283,0.299,B
+number_comparison_401,number_comparison,"Which number is larger?
+A: 0.587
+B: 0.999
+Answer with only A or B.",0.587,0.999,B
+number_comparison_402,number_comparison,"Which number is larger?
+A: 0.49
+B: 0.149
+Answer with only A or B.",0.49,0.149,A
+number_comparison_403,number_comparison,"Which number is larger?
+A: 0.539
+B: 0.345
+Answer with only A or B.",0.539,0.345,A
+number_comparison_404,number_comparison,"Which number is larger?
+A: 0.552
+B: 0.543
+Answer with only A or B.",0.552,0.543,A
+number_comparison_405,number_comparison,"Which number is larger?
+A: 0.455
+B: 0.322
+Answer with only A or B.",0.455,0.322,A
+number_comparison_406,number_comparison,"Which number is larger?
+A: 0.189
+B: 0.697
+Answer with only A or B.",0.189,0.697,B
+number_comparison_407,number_comparison,"Which number is larger?
+A: 0.572
+B: 0.234
+Answer with only A or B.",0.572,0.234,A
+number_comparison_408,number_comparison,"Which number is larger?
+A: 0.776
+B: 0.044
+Answer with only A or B.",0.776,0.044,A
+number_comparison_409,number_comparison,"Which number is larger?
+A: 0.745
+B: 0.705
+Answer with only A or B.",0.745,0.705,A
+number_comparison_410,number_comparison,"Which number is larger?
+A: 0.811
+B: 0.386
+Answer with only A or B.",0.811,0.386,A
+number_comparison_411,number_comparison,"Which number is larger?
+A: 0.664
+B: 0.821
+Answer with only A or B.",0.664,0.821,B
+number_comparison_412,number_comparison,"Which number is larger?
+A: 0.981
+B: 0.495
+Answer with only A or B.",0.981,0.495,A
+number_comparison_413,number_comparison,"Which number is larger?
+A: 0.037
+B: 0.502
+Answer with only A or B.",0.037,0.502,B
+number_comparison_414,number_comparison,"Which number is larger?
+A: 0.59
+B: 0.87
+Answer with only A or B.",0.59,0.87,B
+number_comparison_415,number_comparison,"Which number is larger?
+A: 0.874
+B: 0.44
+Answer with only A or B.",0.874,0.44,A
+number_comparison_416,number_comparison,"Which number is larger?
+A: 0.526
+B: 0.457
+Answer with only A or B.",0.526,0.457,A
+number_comparison_417,number_comparison,"Which number is larger?
+A: 0.722
+B: 0.41
+Answer with only A or B.",0.722,0.41,A
+number_comparison_418,number_comparison,"Which number is larger?
+A: 0.655
+B: 0.154
+Answer with only A or B.",0.655,0.154,A
+number_comparison_419,number_comparison,"Which number is larger?
+A: 0.469
+B: 0.969
+Answer with only A or B.",0.469,0.969,B
+number_comparison_420,number_comparison,"Which number is larger?
+A: 0.339
+B: 0.693
+Answer with only A or B.",0.339,0.693,B
+number_comparison_421,number_comparison,"Which number is larger?
+A: 0.65
+B: 0.852
+Answer with only A or B.",0.65,0.852,B
+number_comparison_422,number_comparison,"Which number is larger?
+A: 0.852
+B: 0.859
+Answer with only A or B.",0.852,0.859,B
+number_comparison_423,number_comparison,"Which number is larger?
+A: 0.38
+B: 0.317
+Answer with only A or B.",0.38,0.317,A
+number_comparison_424,number_comparison,"Which number is larger?
+A: 0.719
+B: 0.759
+Answer with only A or B.",0.719,0.759,B
+number_comparison_425,number_comparison,"Which number is larger?
+A: 0.872
+B: 0.036
+Answer with only A or B.",0.872,0.036,A
+number_comparison_426,number_comparison,"Which number is larger?
+A: 0.068
+B: 0.631
+Answer with only A or B.",0.068,0.631,B
+number_comparison_427,number_comparison,"Which number is larger?
+A: 0.921
+B: 0.997
+Answer with only A or B.",0.921,0.997,B
+number_comparison_428,number_comparison,"Which number is larger?
+A: 0.747
+B: 0.434
+Answer with only A or B.",0.747,0.434,A
+number_comparison_429,number_comparison,"Which number is larger?
+A: 0.098
+B: 0.634
+Answer with only A or B.",0.098,0.634,B
+number_comparison_430,number_comparison,"Which number is larger?
+A: 0.873
+B: 0.444
+Answer with only A or B.",0.873,0.444,A
+number_comparison_431,number_comparison,"Which number is larger?
+A: 0.694
+B: 0.903
+Answer with only A or B.",0.694,0.903,B
+number_comparison_432,number_comparison,"Which number is larger?
+A: 0.046
+B: 0.796
+Answer with only A or B.",0.046,0.796,B
+number_comparison_433,number_comparison,"Which number is larger?
+A: 0.293
+B: 0.375
+Answer with only A or B.",0.293,0.375,B
+number_comparison_434,number_comparison,"Which number is larger?
+A: 0.146
+B: 0.531
+Answer with only A or B.",0.146,0.531,B
+number_comparison_435,number_comparison,"Which number is larger?
+A: 0.566
+B: 0.793
+Answer with only A or B.",0.566,0.793,B
+number_comparison_436,number_comparison,"Which number is larger?
+A: 0.17
+B: 0.079
+Answer with only A or B.",0.17,0.079,A
+number_comparison_437,number_comparison,"Which number is larger?
+A: 0.871
+B: 0.62
+Answer with only A or B.",0.871,0.62,A
+number_comparison_438,number_comparison,"Which number is larger?
+A: 0.241
+B: 0.913
+Answer with only A or B.",0.241,0.913,B
+number_comparison_439,number_comparison,"Which number is larger?
+A: 0.143
+B: 0.461
+Answer with only A or B.",0.143,0.461,B
+number_comparison_440,number_comparison,"Which number is larger?
+A: 0.254
+B: 0.255
+Answer with only A or B.",0.254,0.255,B
+number_comparison_441,number_comparison,"Which number is larger?
+A: 0.009
+B: 0.805
+Answer with only A or B.",0.009,0.805,B
+number_comparison_442,number_comparison,"Which number is larger?
+A: 0.901
+B: 0.678
+Answer with only A or B.",0.901,0.678,A
+number_comparison_443,number_comparison,"Which number is larger?
+A: 0.158
+B: 0.442
+Answer with only A or B.",0.158,0.442,B
+number_comparison_444,number_comparison,"Which number is larger?
+A: 0.346
+B: 0.588
+Answer with only A or B.",0.346,0.588,B
+number_comparison_445,number_comparison,"Which number is larger?
+A: 0.639
+B: 0.424
+Answer with only A or B.",0.639,0.424,A
+number_comparison_446,number_comparison,"Which number is larger?
+A: 0.25
+B: 0.845
+Answer with only A or B.",0.25,0.845,B
+number_comparison_447,number_comparison,"Which number is larger?
+A: 0.199
+B: 0.385
+Answer with only A or B.",0.199,0.385,B
+number_comparison_448,number_comparison,"Which number is larger?
+A: 0.483
+B: 0.237
+Answer with only A or B.",0.483,0.237,A
+number_comparison_449,number_comparison,"Which number is larger?
+A: 0.572
+B: 0.575
+Answer with only A or B.",0.572,0.575,B
+number_comparison_450,number_comparison,"Which number is larger?
+A: 0.993
+B: 0.295
+Answer with only A or B.",0.993,0.295,A
+number_comparison_451,number_comparison,"Which number is larger?
+A: 0.978
+B: 0.658
+Answer with only A or B.",0.978,0.658,A
+number_comparison_452,number_comparison,"Which number is larger?
+A: 0.274
+B: 0.566
+Answer with only A or B.",0.274,0.566,B
+number_comparison_453,number_comparison,"Which number is larger?
+A: 0.686
+B: 0.745
+Answer with only A or B.",0.686,0.745,B
+number_comparison_454,number_comparison,"Which number is larger?
+A: 0.049
+B: 0.606
+Answer with only A or B.",0.049,0.606,B
+number_comparison_455,number_comparison,"Which number is larger?
+A: 0.497
+B: 0.904
+Answer with only A or B.",0.497,0.904,B
+number_comparison_456,number_comparison,"Which number is larger?
+A: 0.286
+B: 0.799
+Answer with only A or B.",0.286,0.799,B
+number_comparison_457,number_comparison,"Which number is larger?
+A: 0.607
+B: 0.352
+Answer with only A or B.",0.607,0.352,A
+number_comparison_458,number_comparison,"Which number is larger?
+A: 0.637
+B: 0.621
+Answer with only A or B.",0.637,0.621,A
+number_comparison_459,number_comparison,"Which number is larger?
+A: 0.678
+B: 0.721
+Answer with only A or B.",0.678,0.721,B
+number_comparison_460,number_comparison,"Which number is larger?
+A: 0.659
+B: 0.838
+Answer with only A or B.",0.659,0.838,B
+number_comparison_461,number_comparison,"Which number is larger?
+A: 0.628
+B: 0.903
+Answer with only A or B.",0.628,0.903,B
+number_comparison_462,number_comparison,"Which number is larger?
+A: 0.646
+B: 0.309
+Answer with only A or B.",0.646,0.309,A
+number_comparison_463,number_comparison,"Which number is larger?
+A: 0.441
+B: 0.58
+Answer with only A or B.",0.441,0.58,B
+number_comparison_464,number_comparison,"Which number is larger?
+A: 0.732
+B: 0.09
+Answer with only A or B.",0.732,0.09,A
+number_comparison_465,number_comparison,"Which number is larger?
+A: 0.295
+B: 0.747
+Answer with only A or B.",0.295,0.747,B
+number_comparison_466,number_comparison,"Which number is larger?
+A: 0.176
+B: 0.132
+Answer with only A or B.",0.176,0.132,A
+number_comparison_467,number_comparison,"Which number is larger?
+A: 0.539
+B: 0.971
+Answer with only A or B.",0.539,0.971,B
+number_comparison_468,number_comparison,"Which number is larger?
+A: 0.531
+B: 0.913
+Answer with only A or B.",0.531,0.913,B
+number_comparison_469,number_comparison,"Which number is larger?
+A: 0.83
+B: 0.257
+Answer with only A or B.",0.83,0.257,A
+number_comparison_470,number_comparison,"Which number is larger?
+A: 0.825
+B: 0.482
+Answer with only A or B.",0.825,0.482,A
+number_comparison_471,number_comparison,"Which number is larger?
+A: 0.806
+B: 0.747
+Answer with only A or B.",0.806,0.747,A
+number_comparison_472,number_comparison,"Which number is larger?
+A: 0.339
+B: 0.115
+Answer with only A or B.",0.339,0.115,A
+number_comparison_473,number_comparison,"Which number is larger?
+A: 0.963
+B: 0.141
+Answer with only A or B.",0.963,0.141,A
+number_comparison_474,number_comparison,"Which number is larger?
+A: 0.967
+B: 0.86
+Answer with only A or B.",0.967,0.86,A
+number_comparison_475,number_comparison,"Which number is larger?
+A: 0.724
+B: 0.98
+Answer with only A or B.",0.724,0.98,B
+number_comparison_476,number_comparison,"Which number is larger?
+A: 0.967
+B: 0.805
+Answer with only A or B.",0.967,0.805,A
+number_comparison_477,number_comparison,"Which number is larger?
+A: 0.366
+B: 0.791
+Answer with only A or B.",0.366,0.791,B
+number_comparison_478,number_comparison,"Which number is larger?
+A: 0.014
+B: 0.537
+Answer with only A or B.",0.014,0.537,B
+number_comparison_479,number_comparison,"Which number is larger?
+A: 0.455
+B: 0.673
+Answer with only A or B.",0.455,0.673,B
+number_comparison_480,number_comparison,"Which number is larger?
+A: 0.672
+B: 0.585
+Answer with only A or B.",0.672,0.585,A
+number_comparison_481,number_comparison,"Which number is larger?
+A: 0.822
+B: 0.94
+Answer with only A or B.",0.822,0.94,B
+number_comparison_482,number_comparison,"Which number is larger?
+A: 0.108
+B: 0.234
+Answer with only A or B.",0.108,0.234,B
+number_comparison_483,number_comparison,"Which number is larger?
+A: 0.025
+B: 0.884
+Answer with only A or B.",0.025,0.884,B
+number_comparison_484,number_comparison,"Which number is larger?
+A: 0.561
+B: 0.915
+Answer with only A or B.",0.561,0.915,B
+number_comparison_485,number_comparison,"Which number is larger?
+A: 0.221
+B: 0.063
+Answer with only A or B.",0.221,0.063,A
+number_comparison_486,number_comparison,"Which number is larger?
+A: 0.824
+B: 0.909
+Answer with only A or B.",0.824,0.909,B
+number_comparison_487,number_comparison,"Which number is larger?
+A: 0.302
+B: 0.408
+Answer with only A or B.",0.302,0.408,B
+number_comparison_488,number_comparison,"Which number is larger?
+A: 0.14
+B: 0.946
+Answer with only A or B.",0.14,0.946,B
+number_comparison_489,number_comparison,"Which number is larger?
+A: 0.304
+B: 0.493
+Answer with only A or B.",0.304,0.493,B
+number_comparison_490,number_comparison,"Which number is larger?
+A: 0.097
+B: 0.887
+Answer with only A or B.",0.097,0.887,B
+number_comparison_491,number_comparison,"Which number is larger?
+A: 0.136
+B: 0.454
+Answer with only A or B.",0.136,0.454,B
+number_comparison_492,number_comparison,"Which number is larger?
+A: 0.67
+B: 0.743
+Answer with only A or B.",0.67,0.743,B
+number_comparison_493,number_comparison,"Which number is larger?
+A: 0.946
+B: 0.419
+Answer with only A or B.",0.946,0.419,A
+number_comparison_494,number_comparison,"Which number is larger?
+A: 0.742
+B: 0.155
+Answer with only A or B.",0.742,0.155,A
+number_comparison_495,number_comparison,"Which number is larger?
+A: 0.415
+B: 0.099
+Answer with only A or B.",0.415,0.099,A
+number_comparison_496,number_comparison,"Which number is larger?
+A: 0.489
+B: 0.408
+Answer with only A or B.",0.489,0.408,A
+number_comparison_497,number_comparison,"Which number is larger?
+A: 0.952
+B: 0.033
+Answer with only A or B.",0.952,0.033,A
+number_comparison_498,number_comparison,"Which number is larger?
+A: 0.371
+B: 0.443
+Answer with only A or B.",0.371,0.443,B
+number_comparison_499,number_comparison,"Which number is larger?
+A: 0.951
+B: 0.855
+Answer with only A or B.",0.951,0.855,A
