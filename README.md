@@ -98,3 +98,22 @@ This is an early pilot result. The current experiment uses one model, one synthe
 ## Shuffled-Label Control Result
 
 The hidden-state probe achieved 0.98 accuracy with true labels, while the shuffled-label control achieved 0.52 accuracy, close to chance. This suggests that the probe is recovering task-relevant numerical information from the model's hidden states rather than simply fitting random structure in the representations.
+
+## Layer-Wise Result
+
+Layer-wise probing shows that numerical comparison information becomes increasingly linearly recoverable across model depth.
+
+In the initial experiment, layer 0 performs near chance, while middle and later layers reach very high probe accuracy. The best layers achieve 1.00 test accuracy, while shuffled-label controls remain near chance.
+
+This suggests that the model's internal representations contain task-relevant numerical comparison information that is much more recoverable than the model's final direct-answer behavior.
+
+Key result:
+
+| Setting | Accuracy |
+|---|---:|
+| Direct answer likelihood scoring | 0.57 |
+| Final-layer hidden-state probe | 0.98 |
+| Best layer-wise hidden-state probe | 1.00 |
+| Shuffled-label control | about 0.50 |
+
+This is still an early pilot result. Future work should test more random seeds, larger datasets, harder numerical tasks, additional models, and stronger train/test generalization controls.
