@@ -1,0 +1,3 @@
+task_type,setting,probe_model,test_accuracy,n_train,n_test
+number_comparison,true_labels,standardized_logistic_regression,0.98,150,50
+number_comparison,shuffled_labels_control,standardized_logistic_regression,0.52,150,50

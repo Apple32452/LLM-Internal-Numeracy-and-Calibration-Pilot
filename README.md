@@ -75,3 +75,22 @@ The first experiment uses a synthetic number-comparison task with Qwen2.5-0.5B-I
 The hidden-state probe uses the final-token representation from the last transformer layer and a standardized logistic regression probe. The result suggests that the model's internal representation contains numerical comparison information that is not reliably expressed in the final answer.
 
 This is only an early pilot result. The current experiment uses a small synthetic dataset, one model, one task type, and a simple train/test split. Next steps include testing more task families, more models, layer-wise probes, calibration metrics, and stronger controls.
+
+## Initial Result
+
+The first pilot experiment studies synthetic number-comparison questions using Qwen2.5-0.5B-Instruct.
+
+| Method | Accuracy |
+|---|---:|
+| Direct answer likelihood scoring | 0.57 |
+| Hidden-state logistic regression probe | 0.98 |
+
+The hidden-state probe uses the final-token representation from the last transformer layer. This preliminary result suggests that numerical comparison information may be more recoverable from internal representations than from final model outputs.
+
+## Control Experiment
+
+To check whether the probe result is meaningful, I added a shuffled-label control. In this control, the hidden states are kept the same but the labels are randomly permuted before training. If the original probe accuracy remains high while shuffled-label accuracy drops near chance, this supports the interpretation that the probe is recovering real task-relevant information rather than fitting noise.
+
+## Limitations
+
+This is an early pilot result. The current experiment uses one model, one synthetic task type, one hidden layer, and a small train/test split. Future work should evaluate more task types, more models, multiple random seeds, layer-wise probes, and calibration metrics.
