@@ -62,3 +62,16 @@ scikit-learn
 matplotlib
 tqdm
 jupyter
+
+## Initial Pilot Result
+
+The first experiment uses a synthetic number-comparison task with Qwen2.5-0.5B-Instruct.
+
+| Method | Task | Accuracy |
+|---|---:|---:|
+| Direct answer likelihood scoring | Number comparison | 0.57 |
+| Hidden-state linear probe | Number comparison | 0.98 |
+
+The hidden-state probe uses the final-token representation from the last transformer layer and a standardized logistic regression probe. The result suggests that the model's internal representation contains numerical comparison information that is not reliably expressed in the final answer.
+
+This is only an early pilot result. The current experiment uses a small synthetic dataset, one model, one task type, and a simple train/test split. Next steps include testing more task families, more models, layer-wise probes, calibration metrics, and stronger controls.
