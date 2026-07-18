@@ -153,3 +153,20 @@ The OOD setup trains probes on smaller/simple numbers and tests on larger/harder
 This suggests that hidden-state representations do not generalize equally across numerical operations. Simple magnitude comparison appears highly transferable, while statistical operations such as mean, proportion, and especially variance are more sensitive to distribution shift.
 
 This gives a clearer research question: when do model-internal numerical representations encode reusable abstractions, and when are they distribution-bound?
+
+## Out-of-Distribution Generalization
+
+I tested whether hidden-state probes trained on simpler numerical distributions generalize to harder out-of-distribution examples.
+
+The OOD setup trains probes on smaller/simple numbers and tests on larger/harder numbers.
+
+| Task | Best OOD Probe Accuracy | Interpretation |
+|---|---:|---|
+| Number comparison | 0.994 | Strong generalization |
+| Proportion comparison | 0.634 | Partial generalization |
+| Mean comparison | 0.596 | Partial generalization |
+| Variance comparison | 0.526 | Near chance |
+
+This suggests that hidden-state representations do not generalize equally across numerical operations. Simple magnitude comparison appears highly transferable, while statistical operations such as mean, proportion, and especially variance are more sensitive to distribution shift.
+
+This gives a clearer research question: when do model-internal numerical representations encode reusable abstractions, and when are they distribution-bound?
