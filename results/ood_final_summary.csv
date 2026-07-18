@@ -1,0 +1,5 @@
+task_type,best_ood_layer,best_ood_accuracy,n_train,n_test,avg_shuffled_control_accuracy
+mean_comparison,20,0.5955734406438632,484,497,0.49762575452716296
+number_comparison,21,0.994,499,500,0.49728
+proportion_comparison,24,0.634,498,500,0.46271999999999996
+variance_comparison,0,0.526,496,500,0.488
