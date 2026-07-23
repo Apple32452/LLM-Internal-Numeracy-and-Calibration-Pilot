@@ -1,0 +1,5 @@
+task_type,ood_direct_answer_accuracy
+mean_comparison,0.5066258919469928
+number_comparison,0.5225225225225225
+proportion_comparison,0.503006012024048
+variance_comparison,0.5220883534136547
