@@ -187,3 +187,16 @@ The OOD setup trains probes on smaller/simple numbers and tests on larger/harder
 This suggests that hidden-state representations do not generalize equally across numerical operations. Simple magnitude comparison appears highly transferable, while statistical operations such as mean, proportion, and especially variance are more sensitive to distribution shift.
 
 This gives a clearer research question: when do model-internal numerical representations encode reusable abstractions, and when are they distribution-bound?
+
+## Final OOD Direct-Answer vs Probe Comparison
+
+I compared the model's direct-answer behavior against the best hidden-state probe under an out-of-distribution split. Probes were trained on simpler numerical distributions and tested on harder numerical distributions.
+
+| Task | Direct OOD Accuracy | Best OOD Probe Accuracy | Probe - Direct |
+|---|---:|---:|---:|
+| Number comparison | 0.5225 | 0.9940 | +0.4715 |
+| Proportion comparison | 0.5030 | 0.6340 | +0.1310 |
+| Mean comparison | 0.5066 | 0.5956 | +0.0890 |
+| Variance comparison | 0.5221 | 0.5260 | +0.0039 |
+
+This result suggests that model-internal numerical representations can be more informative than final answer behavior under distribution shift, but generalization depends strongly on the numerical operation. Simple magnitude comparison generalizes strongly, proportion and mean comparisons partially generalize, and variance comparison remains near chance.
