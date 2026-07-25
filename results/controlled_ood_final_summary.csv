@@ -1,0 +1,13 @@
+shift_type,task_type,best_ood_layer,best_ood_accuracy,n_train,n_test,avg_shuffled_control_accuracy
+combined,mean_comparison,10,0.685370741482966,476,499,0.5079759519038075
+combined,number_comparison,16,0.996,500,500,0.48960000000000004
+combined,proportion_comparison,14,0.642,496,500,0.47776
+combined,variance_comparison,24,0.536,496,500,0.50312
+length,mean_comparison,17,0.7898989898989899,489,495,0.5038383838383838
+length,number_comparison,13,1.0,500,500,0.48536
+length,proportion_comparison,16,0.744,494,500,0.46415999999999996
+length,variance_comparison,13,0.636,500,500,0.49416
+scale,mean_comparison,17,0.644,480,500,0.48536
+scale,number_comparison,21,0.994,500,500,0.50176
+scale,proportion_comparison,24,0.684,499,500,0.50056
+scale,variance_comparison,4,0.534,491,500,0.49872
