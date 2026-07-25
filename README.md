@@ -200,3 +200,20 @@ I compared the model's direct-answer behavior against the best hidden-state prob
 | Variance comparison | 0.5221 | 0.5260 | +0.0039 |
 
 This result suggests that model-internal numerical representations can be more informative than final answer behavior under distribution shift, but generalization depends strongly on the numerical operation. Simple magnitude comparison generalizes strongly, proportion and mean comparisons partially generalize, and variance comparison remains near chance.
+
+## OOD Direct-Answer vs Hidden-State Probe
+
+I evaluated out-of-distribution generalization by training probes on simpler numerical distributions and testing on harder numerical distributions.
+
+The model's direct-answer accuracy is near chance across all OOD task families, but hidden-state probes recover substantially more information for some tasks.
+
+| Task | Direct OOD Accuracy | Best OOD Probe Accuracy | Probe - Direct |
+|---|---:|---:|---:|
+| Number comparison | 0.5225 | 0.9940 | +0.4715 |
+| Proportion comparison | 0.5030 | 0.6340 | +0.1310 |
+| Mean comparison | 0.5066 | 0.5956 | +0.0889 |
+| Variance comparison | 0.5221 | 0.5260 | +0.0039 |
+
+Shuffled-label controls stay near chance, suggesting that the OOD probe gains are task-relevant rather than random.
+
+This suggests that LLM hidden states can contain more recoverable numerical information than final answer behavior under distribution shift. However, this generalization is operation-dependent: simple magnitude comparison transfers strongly, proportion and mean comparison transfer partially, and variance comparison remains near chance.
