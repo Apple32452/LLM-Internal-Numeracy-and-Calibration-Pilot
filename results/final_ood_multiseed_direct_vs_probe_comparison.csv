@@ -1,0 +1,5 @@
+task_type,ood_direct_answer_accuracy,best_ood_layer,best_ood_probe_accuracy_mean,best_ood_probe_accuracy_std,avg_shuffled_control_accuracy,probe_minus_direct
+number_comparison,0.5225225225225225,21,0.994,0.0,0.503184,0.4714774774774775
+proportion_comparison,0.503006012024048,24,0.634,0.0,0.498512,0.13099398797595196
+mean_comparison,0.5066258919469928,20,0.5955734406438632,0.0,0.5064627766599598,0.08894754869687038
+variance_comparison,0.5220883534136547,0,0.526,0.0,0.500032,0.003911646586345352
