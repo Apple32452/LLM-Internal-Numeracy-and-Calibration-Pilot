@@ -217,3 +217,24 @@ The model's direct-answer accuracy is near chance across all OOD task families, 
 Shuffled-label controls stay near chance, suggesting that the OOD probe gains are task-relevant rather than random.
 
 This suggests that LLM hidden states can contain more recoverable numerical information than final answer behavior under distribution shift. However, this generalization is operation-dependent: simple magnitude comparison transfers strongly, proportion and mean comparison transfer partially, and variance comparison remains near chance.
+
+## Controlled OOD Shift Analysis
+
+I further separated the out-of-distribution setting into three controlled shifts:
+
+- **Scale shift:** train on small values and test on larger values, while keeping the task format similar.
+- **Length shift:** train on shorter inputs and test on longer inputs, while keeping the value range similar.
+- **Combined shift:** train on small/short examples and test on larger/longer examples.
+
+Best OOD probe accuracies:
+
+| Task | Combined Shift | Length Shift | Scale Shift |
+|---|---:|---:|---:|
+| Number comparison | 0.996 | 1.000 | 0.994 |
+| Mean comparison | 0.685 | 0.790 | 0.644 |
+| Proportion comparison | 0.642 | 0.744 | 0.684 |
+| Variance comparison | 0.536 | 0.636 | 0.534 |
+
+These results suggest that internal numerical representations generalize differently depending on the operation. Simple number comparison is highly robust across all shifts. Mean and proportion comparisons show partial transfer, especially under length shift. Variance comparison remains much harder and is close to chance under scale and combined shifts.
+
+Overall, the controlled OOD results suggest that scale shift is more damaging than length shift for statistical reasoning tasks such as mean and variance comparison.
