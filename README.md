@@ -257,3 +257,31 @@ Main observations:
 - Variance comparison remains weak under scale and combined shifts, even for easier examples.
 
 This suggests that mean and proportion failures are partly explained by small answer margins, while variance failures may reflect a deeper weakness in how statistical spread is represented internally.
+
+## Margin-Based Difficulty Analysis
+
+I analyzed whether OOD probe failures are explained by example difficulty. For each task, I computed a relative answer margin and grouped test examples into four bins: hardest, hard, easy, and easiest.
+
+Main findings:
+
+| Task | Pattern |
+|---|---|
+| Number comparison | Near-perfect across all margin bins |
+| Mean comparison | Accuracy increases strongly as margin grows |
+| Proportion comparison | Accuracy increases strongly as margin grows |
+| Variance comparison | Remains weak under scale and combined shift, even for easier examples |
+
+This suggests that mean and proportion failures are partly explained by small answer margins. In contrast, variance failures cannot be explained only by small margins, especially under scale and combined shifts. This may indicate that higher-order statistical information such as variance is less robustly encoded in the model's internal representations.
+
+The strongest margin effects are:
+
+| Shift | Task | Hardest Bin | Easiest Bin | Gain |
+|---|---|---:|---:|---:|
+| Scale | Proportion comparison | 0.552 | 0.936 | +0.384 |
+| Length | Proportion comparison | 0.576 | 0.944 | +0.368 |
+| Length | Mean comparison | 0.613 | 0.976 | +0.363 |
+| Scale | Mean comparison | 0.496 | 0.840 | +0.344 |
+| Combined | Mean comparison | 0.512 | 0.776 | +0.264 |
+| Combined | Proportion comparison | 0.528 | 0.768 | +0.240 |
+
+Variance comparison shows much smaller gains under scale and combined shifts, suggesting a deeper representational weakness for variance-like statistical structure.
