@@ -1,0 +1,13 @@
+shift_type,task_type,hardest_bin_accuracy,easiest_bin_accuracy,easiest_minus_hardest
+combined,mean_comparison,0.512,0.776,0.264
+combined,proportion_comparison,0.528,0.768,0.24
+combined,variance_comparison,0.512,0.52,0.008000000000000007
+combined,number_comparison,1.0,1.0,0.0
+length,proportion_comparison,0.576,0.944,0.368
+length,mean_comparison,0.6129032258064516,0.9758064516129032,0.3629032258064516
+length,variance_comparison,0.56,0.784,0.22399999999999998
+length,number_comparison,1.0,1.0,0.0
+scale,proportion_comparison,0.552,0.936,0.384
+scale,mean_comparison,0.496,0.84,0.344
+scale,variance_comparison,0.512,0.592,0.07999999999999996
+scale,number_comparison,1.0,0.976,-0.02400000000000002

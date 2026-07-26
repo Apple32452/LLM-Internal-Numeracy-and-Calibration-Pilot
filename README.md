@@ -238,3 +238,22 @@ Best OOD probe accuracies:
 These results suggest that internal numerical representations generalize differently depending on the operation. Simple number comparison is highly robust across all shifts. Mean and proportion comparisons show partial transfer, especially under length shift. Variance comparison remains much harder and is close to chance under scale and combined shifts.
 
 Overall, the controlled OOD results suggest that scale shift is more damaging than length shift for statistical reasoning tasks such as mean and variance comparison.
+
+## Difficulty / Answer-Margin Analysis
+
+I analyzed whether OOD probe failures are explained by task difficulty. For each example, I computed an answer margin:
+
+- number comparison: absolute difference between the two numbers
+- mean comparison: absolute difference between list means
+- proportion comparison: absolute difference between success proportions
+- variance comparison: absolute difference between variances
+
+Examples were grouped into task-specific relative-margin quartiles: hardest, hard, easy, and easiest.
+
+Main observations:
+
+- Number comparison remains near perfect across all margin bins.
+- Mean comparison and proportion comparison improve strongly as answer margin increases.
+- Variance comparison remains weak under scale and combined shifts, even for easier examples.
+
+This suggests that mean and proportion failures are partly explained by small answer margins, while variance failures may reflect a deeper weakness in how statistical spread is represented internally.
