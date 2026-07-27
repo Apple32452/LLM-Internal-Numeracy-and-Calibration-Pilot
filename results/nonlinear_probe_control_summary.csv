@@ -1,0 +1,13 @@
+task_type,shift_type,probe_family,control_mean_accuracy,control_std_accuracy,n_seeds
+mean_comparison,combined,linear,0.5445,0.05282543247139086,20
+mean_comparison,combined,mlp,0.537625,0.047173218037356766,20
+mean_comparison,length,linear,0.5205808080808081,0.04262152397122132,20
+mean_comparison,length,mlp,0.5238636363636363,0.042449511157787924,20
+mean_comparison,scale,linear,0.5585,0.05239274758971897,20
+mean_comparison,scale,mlp,0.564,0.08203978495699192,20
+variance_comparison,combined,linear,0.49874999999999997,0.02030199627208071,20
+variance_comparison,combined,mlp,0.49824999999999997,0.014443629081800453,20
+variance_comparison,length,linear,0.5055,0.018736398575471963,20
+variance_comparison,length,mlp,0.51725,0.025519600310349683,20
+variance_comparison,scale,linear,0.505875,0.015649848662459807,20
+variance_comparison,scale,mlp,0.5051249999999999,0.030954922659281594,20

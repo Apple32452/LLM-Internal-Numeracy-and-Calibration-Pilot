@@ -1,0 +1,7 @@
+task_type,shift_type,n_target,positive_rate,majority_class_accuracy
+mean_comparison,combined,499,0.5130260521042084,0.5130260521042084
+mean_comparison,length,495,0.498989898989899,0.501010101010101
+mean_comparison,scale,500,0.482,0.518
+variance_comparison,combined,500,0.496,0.504
+variance_comparison,length,500,0.486,0.514
+variance_comparison,scale,500,0.498,0.502

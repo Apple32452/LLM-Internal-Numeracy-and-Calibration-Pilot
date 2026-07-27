@@ -201,7 +201,7 @@ def main():
         "shuffled_train_control",
     ]
 
-    seeds = [0, 1, 2]
+    seeds = list(range(20))
     rows = []
 
     for task_type in tasks:
