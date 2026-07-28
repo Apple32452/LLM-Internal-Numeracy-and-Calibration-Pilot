@@ -1,0 +1,41 @@
+{
+  "hypothesis": "Instruction tuning increases the control-adjusted nonlinear accessibility of variance information under numerical scale shift.",
+  "task_type": "variance_comparison",
+  "shift_type": "scale",
+  "source_generation_seed": 51001,
+  "target_generation_seed": 62001,
+  "source_examples": 2000,
+  "target_examples": 2000,
+  "examples_per_label_per_split": 1000,
+  "list_length": 5,
+  "source_value_range": [0, 10],
+  "target_value_range": [50, 150],
+  "models": [
+    "Qwen/Qwen2.5-0.5B",
+    "Qwen/Qwen2.5-0.5B-Instruct"
+  ],
+  "evaluation_split_seeds": [
+    100, 101, 102, 103, 104,
+    105, 106, 107, 108, 109,
+    110, 111, 112, 113, 114,
+    115, 116, 117, 118, 119
+  ],
+  "target_validation_fraction": 0.20,
+  "probe_families": ["linear", "mlp"],
+  "representation_candidates": [
+    "layer_0",
+    "layer_4",
+    "layer_8",
+    "layer_12",
+    "layer_16",
+    "layer_20",
+    "layer_24",
+    "middle_mean_8_16",
+    "late_mean_13_24"
+  ],
+  "selection_metric": "target_validation_balanced_accuracy",
+  "final_metrics": ["balanced_accuracy", "auroc"],
+  "negative_control": "shuffled_source_labels",
+  "primary_contrast": "Instruct-minus-Base control-adjusted MLP-minus-linear gain",
+  "success_criterion": "The bootstrap confidence interval for the primary AUROC contrast must be above zero. Balanced accuracy is a secondary confirmation."
+}
