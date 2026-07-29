@@ -1,0 +1,43 @@
+{
+  "research_question": "Does the Qwen instruction-tuning effect replicate in a second matched Base/Instruct model family?",
+  "dataset": "data/confirmatory_variance_scale_tasks.csv",
+  "models": {
+    "base": "google/gemma-3-1b-pt",
+    "instruct": "google/gemma-3-1b-it"
+  },
+  "task_type": "variance_comparison",
+  "shift_type": "scale",
+  "prompt_format": "identical_raw_text_for_base_and_instruct",
+  "target_validation_fraction": 0.20,
+  "evaluation_seeds": [
+    100, 101, 102, 103, 104,
+    105, 106, 107, 108, 109,
+    110, 111, 112, 113, 114,
+    115, 116, 117, 118, 119
+  ],
+  "normalized_single_depths": [
+    0.0,
+    0.17,
+    0.33,
+    0.50,
+    0.67,
+    0.83,
+    1.0
+  ],
+  "normalized_layer_averages": {
+    "middle_mean": [0.33, 0.67],
+    "late_mean": [0.67, 1.0]
+  },
+  "probe_families": [
+    "linear",
+    "mlp"
+  ],
+  "selection_metric": "target_validation_balanced_accuracy",
+  "final_metrics": [
+    "balanced_accuracy",
+    "auroc"
+  ],
+  "negative_control": "shuffled_source_labels",
+  "primary_contrast": "Instruct-minus-Base control-adjusted MLP-minus-linear AUROC gain",
+  "success_criterion": "The primary contrast must be positive with a bootstrap confidence interval entirely above zero."
+}
