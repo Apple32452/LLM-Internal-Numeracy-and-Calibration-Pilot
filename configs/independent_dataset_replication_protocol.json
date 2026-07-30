@@ -1,0 +1,63 @@
+{
+  "experiment_name": "independent_variance_scale_replication_v1",
+  "hypothesis": "Instruction-tuned checkpoints exhibit a larger control-adjusted nonlinear-probe advantage than corresponding base checkpoints for variance comparison under numerical scale shift.",
+  "task_type": "variance_comparison",
+  "shift_type": "scale",
+  "replicates": [
+    {
+      "replicate_id": 1,
+      "source_generation_seed": 81001,
+      "target_generation_seed": 91001
+    },
+    {
+      "replicate_id": 2,
+      "source_generation_seed": 81002,
+      "target_generation_seed": 91002
+    },
+    {
+      "replicate_id": 3,
+      "source_generation_seed": 81003,
+      "target_generation_seed": 91003
+    },
+    {
+      "replicate_id": 4,
+      "source_generation_seed": 81004,
+      "target_generation_seed": 91004
+    },
+    {
+      "replicate_id": 5,
+      "source_generation_seed": 81005,
+      "target_generation_seed": 91005
+    }
+  ],
+  "examples_per_label_per_split": 1000,
+  "source_examples": 2000,
+  "target_examples": 2000,
+  "list_length": 5,
+  "source_value_range": [0, 10],
+  "target_value_range": [50, 150],
+  "models": {
+    "qwen": {
+      "base": "Qwen/Qwen2.5-0.5B",
+      "instruct": "Qwen/Qwen2.5-0.5B-Instruct"
+    },
+    "gemma": {
+      "base": "google/gemma-3-1b-pt",
+      "instruct": "google/gemma-3-1b-it"
+    }
+  },
+  "prompt_format": "identical_raw_text_for_base_and_instruct",
+  "model_dtype": "float32",
+  "saved_hidden_state_dtype": "float32",
+  "evaluation_split_seeds": [
+    100, 101, 102, 103, 104,
+    105, 106, 107, 108, 109,
+    110, 111, 112, 113, 114,
+    115, 116, 117, 118, 119
+  ],
+  "target_validation_fraction": 0.20,
+  "primary_metric": "control_adjusted_instruct_minus_base_auroc_gain",
+  "secondary_metric": "control_adjusted_instruct_minus_base_balanced_accuracy_gain",
+  "independent_statistical_unit": "generated_dataset",
+  "success_criterion": "Effects should be positive and consistent across independently generated datasets. Dataset-level confidence intervals, rather than target-split-level intervals, are primary."
+}

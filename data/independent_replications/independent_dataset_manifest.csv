@@ -1,0 +1,6 @@
+replicate_id,source_seed,target_seed,dataset_path,n_examples,train_examples,test_examples,mean_train_relative_margin,mean_test_relative_margin
+1,81001,91001,data/independent_replications/replicate_01.csv,4000,2000,2000,0.4370245584887428,0.42183041006925004
+2,81002,91002,data/independent_replications/replicate_02.csv,4000,2000,2000,0.43426349270605913,0.44788073337022605
+3,81003,91003,data/independent_replications/replicate_03.csv,4000,2000,2000,0.4393897920439891,0.4274942504429208
+4,81004,91004,data/independent_replications/replicate_04.csv,4000,2000,2000,0.4370864981003548,0.43305757840052805
+5,81005,91005,data/independent_replications/replicate_05.csv,4000,2000,2000,0.43837301940856294,0.4281309681540869
