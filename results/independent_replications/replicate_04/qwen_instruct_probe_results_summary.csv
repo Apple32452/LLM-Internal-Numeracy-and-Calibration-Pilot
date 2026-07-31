@@ -1,0 +1,5 @@
+model_variant,setting,probe_family,balanced_accuracy_mean,balanced_accuracy_std,auroc_mean,auroc_std,n_seeds
+instruct,shuffled_train_control,linear,0.5070625,0.012401088927144555,0.501275,0.022122908454468324,20
+instruct,shuffled_train_control,mlp,0.5188125,0.01926155241188489,0.5199246093750001,0.03612595942523549,20
+instruct,true_labels,linear,0.523,0.009065278612143693,0.542011875,0.02594059103133734,20
+instruct,true_labels,mlp,0.53621875,0.017373219096538068,0.5719913671875,0.02405473955364121,20
